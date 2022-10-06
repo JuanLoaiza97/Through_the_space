@@ -22,6 +22,6 @@ public class SpaceshipMovement : MonoBehaviour
     {
         verticalMove = joystick.Vertical * speedVertical;
         horizontalMove = joystick.Horizontal * speedHorizontal;
-        transform.position += new Vector3(horizontalMove, verticalMove, 0) * Time.deltaTime * speedMove;
+        transform.position += new Vector3(horizontalMove, verticalMove).normalized * Time.deltaTime * speedMove;
     }
 }
