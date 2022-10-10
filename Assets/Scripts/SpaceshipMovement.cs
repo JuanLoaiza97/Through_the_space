@@ -9,6 +9,9 @@ public class SpaceshipMovement : MonoBehaviour
     public float speedVertical = 3;
     public Joystick joystick;
 
+    public Vector2 limitSup = Vector2.zero;
+    public Vector2 limitSub = Vector2.zero;
+
     private float horizontalMove = 0;
     private float verticalMove = 0;
     private Rigidbody2D rigidbody;
@@ -20,8 +23,28 @@ public class SpaceshipMovement : MonoBehaviour
 
     void Update()
     {
+        
         verticalMove = joystick.Vertical * speedVertical;
-        horizontalMove = joystick.Horizontal * speedHorizontal;
+        /* if (limitSup.y >= transform.position.y && transform.position.y >= limitSub.y)
+        {
+            Debug.Log("Y: "+ limitSup.y+ " > " + transform.position.y + " > " + limitSub.y);
+            
+        }
+        else
+        {
+            Debug.Log(" Y fuera de rango " + limitSup.y+ " > " + transform.position.y + " > " + limitSub.x);
+        } */
+
+       /*  if (limitSup.x >= transform.position.x && transform.position.x >= limitSub.x)
+         //{
+/*             Debug.Log("X: "+limitSup.x+ " > " + transform.position.x + " > " + limitSub.x); */
+            horizontalMove = joystick.Horizontal * speedHorizontal;
+        //}
+/*         else
+        {
+            Debug.Log("X fuera de rango "+limitSup.x+ " > " + transform.position.x + " > " + limitSub.x);
+        } */
+        
         transform.position += new Vector3(horizontalMove, verticalMove).normalized * Time.deltaTime * speedMove;
     }
 }

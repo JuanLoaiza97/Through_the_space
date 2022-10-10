@@ -8,12 +8,15 @@ public class Meteor : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, 20);
+        speed = Random.Range(2, 6);
+       
     }
 
     void Update()
     {
-        speed = Random.Range(1, 7);
+        if (transform.position.x < -12) {
+             Destroy(gameObject);
+        }
         transform.position += -transform.right * Time.deltaTime * speed;
     }
 }
