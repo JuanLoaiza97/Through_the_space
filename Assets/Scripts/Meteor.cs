@@ -17,6 +17,8 @@ public class Meteor : MonoBehaviour
         if (transform.position.x < -12) {
              Destroy(gameObject);
         }
-        transform.position += -transform.right * Time.deltaTime * speed;
+        transform.position += Vector3.left * Time.deltaTime * speed;
+        transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed * 10));
+        //transform.RotateAround(transform.position, Vector3.back, Time.deltaTime * speed * 10);
     }
 }

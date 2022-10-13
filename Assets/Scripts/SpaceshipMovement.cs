@@ -4,47 +4,25 @@ using UnityEngine;
 
 public class SpaceshipMovement : MonoBehaviour
 {
-    public float speedMove = 0;
-    public float speedHorizontal = 3;
-    public float speedVertical = 3;
+
+    [Header("Move")]
+    public float speedMove;
     public Joystick joystick;
 
-    public Vector2 limitSup = Vector2.zero;
-    public Vector2 limitSub = Vector2.zero;
-
-    private float horizontalMove = 0;
-    private float verticalMove = 0;
-    private Rigidbody2D rigidbody;
-
-    void Start()
-    {
-        rigidbody = GetComponent<Rigidbody2D>();
-    }
+    [Header("Rage move")]
+    public float maximoY;
+    public float minimoY;
+    public float maximoX;
+    public float minimoX;
 
     void Update()
     {
-        
-        verticalMove = joystick.Vertical * speedVertical;
-        /* if (limitSup.y >= transform.position.y && transform.position.y >= limitSub.y)
-        {
-            Debug.Log("Y: "+ limitSup.y+ " > " + transform.position.y + " > " + limitSub.y);
-            
-        }
-        else
-        {
-            Debug.Log(" Y fuera de rango " + limitSup.y+ " > " + transform.position.y + " > " + limitSub.x);
-        } */
+        float verticalMove = joystick.Vertical;
+        float horizontalMove = joystick.Horizontal;
 
-       /*  if (limitSup.x >= transform.position.x && transform.position.x >= limitSub.x)
-         //{
-/*             Debug.Log("X: "+limitSup.x+ " > " + transform.position.x + " > " + limitSub.x); */
-            horizontalMove = joystick.Horizontal * speedHorizontal;
-        //}
-/*         else
-        {
-            Debug.Log("X fuera de rango "+limitSup.x+ " > " + transform.position.x + " > " + limitSub.x);
-        } */
-        
         transform.position += new Vector3(horizontalMove, verticalMove).normalized * Time.deltaTime * speedMove;
+
+        //Limita el rango de movimiento
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, minimoX, maximoX), Mathf.Clamp(transform.position.y, minimoY, maximoY));
     }
 }

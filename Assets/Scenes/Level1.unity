@@ -1487,11 +1487,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMove: 5
-  speedHorizontal: 3
-  speedVertical: 3
   joystick: {fileID: 461567071}
-  limitSup: {x: 0, y: 0}
-  limitSub: {x: 0, y: 0}
+  maximoY: 4.3
+  minimoY: -4.3
+  maximoX: 2
+  minimoX: -9
 --- !u!212 &1556412408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1598,7 +1598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -493.5904, y: -243.8785}
+  m_AnchoredPosition: {x: -493.5904, y: -244.97}
   m_SizeDelta: {x: -958.55554, y: -472.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1569659620
