@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpaceshipMovement : MonoBehaviour
+public class Spaceship : MonoBehaviour
 {
-    public GameOverPanel GameOverPanel;
+    public LevelController levelController;
 
     [Header("Life")]
-    public BarLife barLife;
+    public ProgressBar barLife;
     public float life;
     public float currentLife;
     public int points;
@@ -41,19 +41,38 @@ public class SpaceshipMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.collider.CompareTag("Enemy"))
         {
-            receiveDamage(5);
             Destroy(other.gameObject);
+            ReceiveDamage(other.gameObject.GetComponent<EnemyObject>().damage);
             if (currentLife <= 0) 
             {
-                GameOverPanel.GameOver(points);
+                levelController.GameOver(points);
             }
+        }
+        else if (other.collider.CompareTag("FistAidKit"))
+        {
+            Destroy(other.gameObject);
+            Heal(other.gameObject.GetComponent<FirstAidKit>().healing);
+        }
+        else if (other.collider.CompareTag("Portal"))
+        {
+            levelController.NextLevel();
         }
         
     }
 
-    private void receiveDamage(float damage)
+    private void ReceiveDamage(float damage)
     {
         currentLife -= damage;
-        barLife.UpdateBarLife(currentLife, life);
+        barLife.UpdateBar(currentLife, life);
+    }
+
+    private void Heal(float healing)
+    {
+        currentLife += healing;
+        if (currentLife > life) 
+        {
+            currentLife = life;
+        }
+        barLife.UpdateBar(currentLife, life);
     }
 }
