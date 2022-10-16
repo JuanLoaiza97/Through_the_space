@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Meteor : MonoBehaviour
 {
+    public Sprite[] sprites;
     public float speed = 1;
 
     void Start()
     {
-        speed = Random.Range(2, 6);
-       
+        gameObject.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
     }
 
     void Update()
@@ -19,6 +19,8 @@ public class Meteor : MonoBehaviour
         }
         transform.position += Vector3.left * Time.deltaTime * speed;
         transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed * 10));
-        //transform.RotateAround(transform.position, Vector3.back, Time.deltaTime * speed * 10);
+    }
+
+    void OnCollisionEnter2D(Collision2D other) {
     }
 }

@@ -11,7 +11,7 @@ public class PausePanel : MonoBehaviour
     [Header("Panels")]
     public GameObject pausePanel;
 
-    private void Awake()
+    private void Start()
     {
         pausePanel.SetActive(false);
     }

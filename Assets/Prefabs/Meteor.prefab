@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4979450427172333335}
   - component: {fileID: -776401700074359731}
   m_Layer: 5
-  m_Name: Meteor1
-  m_TagString: Untagged
+  m_Name: Meteor
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c480cb302d3abcf43937c2b59387307c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  sprites:
+  - {fileID: 568885678, guid: 21eaf7739cf86a546814b80bcfedaae1, type: 3}
+  - {fileID: 722225950, guid: 21eaf7739cf86a546814b80bcfedaae1, type: 3}
+  - {fileID: -179975939, guid: 21eaf7739cf86a546814b80bcfedaae1, type: 3}
+  speed: 4
 --- !u!58 &-776401700074359731
 CircleCollider2D:
   m_ObjectHideFlags: 0
