@@ -40,6 +40,8 @@ public class LevelController : MonoBehaviour
 
     private void Update()
     {
+
+        //RNF2 Cuenta el tiempo y cuando pase el tiempo programado finaliza el nivel
         time += Time.deltaTime;
         levelProgressBar.UpdateBar(time, timeToFinishedLevel);
         if (!isFinishedLevel && time > timeToFinishedLevel)
@@ -48,6 +50,8 @@ public class LevelController : MonoBehaviour
             FinishLevel();
         }
     }
+
+    //RT2 (Boton pausa)
     public void PauseLevel()
     {
         pausePanel.SetActive(true);
@@ -55,6 +59,7 @@ public class LevelController : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    //RT2 (Boton continuar)
     public void ResumeLevel()
     {
         pausePanel.SetActive(false);
@@ -80,11 +85,14 @@ public class LevelController : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+
     public void FinishLevel()
     {
         spawnObject.SetActive(false);
+        // RNT1 Si al finalizar el nivel tiene más del 80% de vida gana 20 puntos, si no gana 10
         spaceShip.points += Mathf.Round(spaceShip.currentLife / spaceShip.life) >= 80 ? 20 : 10;
         UpdateScoreIndicator();
+        //RF5 Generar portal
         Instantiate(portal, new Vector3(11, 0, 1), gameObject.transform.rotation);
     }
 

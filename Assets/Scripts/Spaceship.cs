@@ -29,9 +29,21 @@ public class Spaceship : MonoBehaviour
 
     private void Update()
     {
+        Move();
+    }
+
+    //RF2 (Movimiento jugador)
+    private void Move()
+    {
+        //Captura la posicion de joystick en ambos ejes, que va desde -1 a 1
         float verticalMove = joystick.Vertical;
         float horizontalMove = joystick.Horizontal;
 
+        /*A la posicion actual se le suma un vector en base a la posicion del joystick.
+         *Normalized se usa para que el movimiento en diagonal sea igual al movimiento en los ejes x,y.
+         *Se multiplica por speed para ir más rapido o lento
+         *Time.deltaTime se usa para el juego corra igual, sin importar la velocidad del dispositivo
+         */
         transform.position += new Vector3(horizontalMove, verticalMove).normalized * Time.deltaTime * speedMove;
 
         //Limita el rango de movimiento
@@ -39,6 +51,7 @@ public class Spaceship : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
+        //RF1 Recibir daño si choca con un enemigo
         if (other.collider.CompareTag("Enemy"))
         {
             Destroy(other.gameObject);
@@ -48,11 +61,13 @@ public class Spaceship : MonoBehaviour
                 levelController.GameOver(points);
             }
         }
+        //RNF3 Curarse
         else if (other.collider.CompareTag("FistAidKit"))
         {
             Destroy(other.gameObject);
             Heal(other.gameObject.GetComponent<FirstAidKit>().healing);
         }
+        //RF5 Pasar al siguiente nivel
         else if (other.collider.CompareTag("Portal"))
         {
             levelController.NextLevel();
@@ -60,9 +75,11 @@ public class Spaceship : MonoBehaviour
         
     }
 
+
     private void ReceiveDamage(float damage)
     {
         currentLife -= damage;
+        //RF1 Actualizar barra de vida al recibir daño
         barLife.UpdateBar(currentLife, life);
     }
 

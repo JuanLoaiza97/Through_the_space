@@ -32,6 +32,7 @@ public class SpawnObject : MonoBehaviour
 
     private void Update()
     {
+        //RF3 Generar enemigos
         timeNextSpawn -= Time.deltaTime;
         if (timeNextSpawn < 0)
         {
@@ -48,6 +49,7 @@ public class SpawnObject : MonoBehaviour
             speedRange[1] += scaleDifficulty;
         }
 
+        //RNF3 Genera los botiquines, calcula de forma aleatoria segun un rango dado en que momento se generara un botiquin
         time += Time.deltaTime;
         if (timeSpawnAid <= time && aidsInvoked < 2) {
             SpawnAids();
@@ -73,6 +75,7 @@ public class SpawnObject : MonoBehaviour
         enemy.GetComponent<EnemyObject>().speed = Random.Range(speedRange[0], speedRange[1]);
         Instantiate(enemy, spawnPosition, gameObject.transform.rotation);
 
+        // Genera un numero al azar del 0 al 10, y si este es menor a 3 vuelve a generar otro enemigo (30% de probabilidad)
         if (Random.Range(0, 10) < 3)
         {
             SpawnEnemies();
