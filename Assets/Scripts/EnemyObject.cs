@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyObject : MonoBehaviour
+public class EnemyObject : ProjectileMotion
 {
     public Sprite[] sprites;
-    public float speed;
     public float damage;
 
     private void Start()
@@ -15,16 +14,8 @@ public class EnemyObject : MonoBehaviour
 
     private void Update()
     {
-        Move(speed);
-        if (transform.position.x < -12)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    private void Move(float speed)
-    {
-        transform.position += Vector3.left * Time.deltaTime * speed;
-        transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed * 10));
+        Move();
+        Rotation();
+        ValidateDestroy();
     }
 }

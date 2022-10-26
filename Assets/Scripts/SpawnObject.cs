@@ -30,6 +30,10 @@ public class SpawnObject : MonoBehaviour
         timeSpawnAid = Random.Range(15, 30);
     }
 
+    [Header("Coins")]
+    public GameObject coin;
+    public
+
     private void Update()
     {
         //RF3 Generar enemigos
@@ -38,6 +42,7 @@ public class SpawnObject : MonoBehaviour
         {
             timeNextSpawn = timeSpawn;
             SpawnEnemies();
+            SpawnCoin();
             UpDifficulty();
         }
 
@@ -72,7 +77,7 @@ public class SpawnObject : MonoBehaviour
             Random.Range(spawnRangeTop.y, spawnRangeBot.y)
         );
         GameObject enemy = enemies[Random.Range(0, enemies.Length)];
-        enemy.GetComponent<EnemyObject>().speed = Random.Range(speedRange[0], speedRange[1]);
+        enemy.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
         Instantiate(enemy, spawnPosition, gameObject.transform.rotation);
 
         // Genera un numero al azar del 0 al 10, y si este es menor a 3 vuelve a generar otro enemigo (30% de probabilidad)
@@ -90,8 +95,18 @@ public class SpawnObject : MonoBehaviour
             Random.Range(spawnRangeTop.y, spawnRangeBot.y)
         );
         GameObject obj = aids[Random.Range(0, aids.Length)];
-        obj.GetComponent<FirstAidKit>().speed = Random.Range(speedRange[0], speedRange[1]);
+        obj.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
         Instantiate(obj, spawnPosition, gameObject.transform.rotation);
+    }
+
+    private void SpawnCoin()
+    {
+        Vector3 spawnPosition = new Vector3(
+            Random.Range(spawnRangeTop.x, spawnRangeBot.x),
+            Random.Range(spawnRangeTop.y, spawnRangeBot.y)
+        );
+        coin.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
+        Instantiate(coin, spawnPosition, gameObject.transform.rotation);
     }
 }
 

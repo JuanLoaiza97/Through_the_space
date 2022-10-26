@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstAidKit : ProjectileMotion
+public class Coin : ProjectileMotion
 {
-    public float healing;
-    private void Update()
+    public int points;
+    
+    void Update()
     {
         Move();
         Rotation();

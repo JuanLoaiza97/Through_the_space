@@ -72,6 +72,11 @@ public class Spaceship : MonoBehaviour
         {
             levelController.NextLevel();
         }
+        else if (other.collider.CompareTag("Coin"))
+        {
+            Destroy(other.gameObject);
+            AddPoints(other.gameObject.GetComponent<Coin>().points);
+        }
         
     }
 
@@ -91,5 +96,11 @@ public class Spaceship : MonoBehaviour
             currentLife = life;
         }
         barLife.UpdateBar(currentLife, life);
+    }
+
+    private void AddPoints(int points)
+    {
+        this.points += points;
+        levelController.UpdateScoreIndicator();
     }
 }
