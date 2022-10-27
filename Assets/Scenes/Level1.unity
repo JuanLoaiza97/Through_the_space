@@ -457,6 +457,7 @@ MonoBehaviour:
   - {fileID: 4979450427172333339, guid: 1bbe4dd336c26f84a96f6d06346fc8af, type: 3}
   aidsInvoked: 0
   timeSpawnAid: 0
+  coin: {fileID: 4456741832413277902, guid: 94cf7f4f921853342a3b6d4d1f0de29c, type: 3}
 --- !u!1 &317973000
 GameObject:
   m_ObjectHideFlags: 0
