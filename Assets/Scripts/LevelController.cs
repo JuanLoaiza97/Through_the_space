@@ -36,6 +36,7 @@ public class LevelController : MonoBehaviour
         gameOverPanel.SetActive(false);
         levelProgressBar.UpdateBar(0, 1);
         scoreIndicator.UpdateIndicator(0);
+        SoundController.instance.SetBackgroundMusic(SoundController.instance.niviru5003);
     }
 
     private void Update()
@@ -54,21 +55,26 @@ public class LevelController : MonoBehaviour
     //RT2 (Boton pausa)
     public void PauseLevel()
     {
+        SoundController.instance.PlayButtonSound();
         pausePanel.SetActive(true);
         pauseButton.SetActive(false);
         Time.timeScale = 0f;
+        SoundController.instance.SetBackgroundMusic(SoundController.instance.menuMusic);
     }
 
     //RT2 (Boton continuar)
     public void ResumeLevel()
     {
+        SoundController.instance.PlayButtonSound();
         pausePanel.SetActive(false);
         pauseButton.SetActive(true);
         Time.timeScale = 1f;
+        SoundController.instance.SetBackgroundMusic(SoundController.instance.niviru5003);
     }
 
     public void GameOver(int points)
     {   
+        SoundController.instance.StopBackgroundMusic();
         Time.timeScale = 0f;
         gameOverPanel.SetActive(true);
         pointsText.text = points + " puntos";
@@ -76,12 +82,14 @@ public class LevelController : MonoBehaviour
 
     public void RetryLevel()
     {
+        SoundController.instance.PlayButtonSound();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
     }
 
     public void ExitLevel()
     {
+        SoundController.instance.PlayButtonSound();
         SceneManager.LoadScene("Menu");
     }
 

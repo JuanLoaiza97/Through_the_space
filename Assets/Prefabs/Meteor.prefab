@@ -125,4 +125,5 @@ MonoBehaviour:
   - {fileID: 568885678, guid: 21eaf7739cf86a546814b80bcfedaae1, type: 3}
   - {fileID: 722225950, guid: 21eaf7739cf86a546814b80bcfedaae1, type: 3}
   - {fileID: -179975939, guid: 21eaf7739cf86a546814b80bcfedaae1, type: 3}
+  explosionEffect: {fileID: 229776486669701070, guid: ff45c3cccf1769346af8d198248e78fd, type: 3}
   damage: 15

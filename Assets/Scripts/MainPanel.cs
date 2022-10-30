@@ -11,9 +11,6 @@ public class MainPanel : MonoBehaviour
     public Slider volumeFX;
     public Slider volumeMaster;
     public Toggle mute;
-    public AudioMixer mixer;
-    public AudioSource fxSource;
-    public AudioClip clickSound;
     private float lastVolMaster;
     private float lastVolFX;
     [Header("Panels")]
@@ -21,13 +18,13 @@ public class MainPanel : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject levelSelectPanel;
 
- 
     private void Awake()
     {
         optionsPanel.SetActive(false);
         levelSelectPanel.SetActive(false);
         volumeFX.onValueChanged.AddListener(ChangeVolumeFX);
         volumeMaster.onValueChanged.AddListener(ChangeVolumeMaster);
+        SoundController.instance.SetBackgroundMusic(SoundController.instance.menuMusic);
     }
 
     public void PlayLevel(string levelName)
@@ -42,17 +39,17 @@ public class MainPanel : MonoBehaviour
 
     public void SetMute()
     {
-        PlaySoundButton();
+        SoundController.instance.PlayButtonSound();
         if (mute.isOn)
         {
-            mixer.GetFloat("VolMaster", out lastVolMaster);
-            mixer.SetFloat("VolMaster", -80);
-            mixer.GetFloat("VolFX", out lastVolFX);
-            mixer.SetFloat("VolFX", -80);
+            SoundController.instance.mixer.GetFloat("VolMaster", out lastVolMaster);
+            SoundController.instance.mixer.SetFloat("VolMaster", -80);
+            SoundController.instance.mixer.GetFloat("VolFX", out lastVolFX);
+            SoundController.instance.mixer.SetFloat("VolFX", -80);
         }
         else
-            mixer.SetFloat("VolMaster", lastVolMaster);
-            mixer.SetFloat("VolFX", lastVolFX);
+        SoundController.instance.mixer.SetFloat("VolMaster", lastVolMaster);
+        SoundController.instance.mixer.SetFloat("VolFX", lastVolFX);
     }
 
     public void OpenPanel(GameObject panel)
@@ -62,21 +59,16 @@ public class MainPanel : MonoBehaviour
         levelSelectPanel.SetActive(false);
 
         panel.SetActive(true);
-        PlaySoundButton();
+        SoundController.instance.PlayButtonSound();
     }
 
     public void ChangeVolumeMaster(float v)
     {
-        mixer.SetFloat("VolMaster", v);
+        SoundController.instance.mixer.SetFloat("VolMaster", v);
     }
 
     public void ChangeVolumeFX(float v)
     {
-        mixer.SetFloat("VolFX", v);
-    }
-
-    public void PlaySoundButton()
-    {
-        fxSource.PlayOneShot(clickSound);
+        SoundController.instance.mixer.SetFloat("VolFX", v);
     }
 }

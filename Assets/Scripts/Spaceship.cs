@@ -54,26 +54,31 @@ public class Spaceship : MonoBehaviour
         //RF1 Recibir daño si choca con un enemigo
         if (other.collider.CompareTag("Enemy"))
         {
-            Destroy(other.gameObject);
+            SoundController.instance.PlayCollisionSound();
+            other.gameObject.GetComponent<EnemyObject>().Destroy();
             ReceiveDamage(other.gameObject.GetComponent<EnemyObject>().damage);
             if (currentLife <= 0) 
             {
+                SoundController.instance.PlayGameOverSound();
                 levelController.GameOver(points);
             }
         }
         //RNF3 Curarse
         else if (other.collider.CompareTag("FistAidKit"))
         {
+            SoundController.instance.PlayFirstAidKitSound();
             Destroy(other.gameObject);
             Heal(other.gameObject.GetComponent<FirstAidKit>().healing);
         }
         //RF5 Pasar al siguiente nivel
         else if (other.collider.CompareTag("Portal"))
         {
-            levelController.NextLevel();
+            SoundController.instance.PlayTeleportationSound();
+            //levelController.NextLevel();
         }
         else if (other.collider.CompareTag("Coin"))
         {
+            SoundController.instance.PlayCoinSound();
             Destroy(other.gameObject);
             AddPoints(other.gameObject.GetComponent<Coin>().points);
         }

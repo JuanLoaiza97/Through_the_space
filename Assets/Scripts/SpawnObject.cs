@@ -6,6 +6,8 @@ public class SpawnObject : MonoBehaviour
 {
 
     [Header("Spawn config")]
+
+    public float durationLevel;
     public Vector2 spawnRangeTop;
     public Vector2 spawnRangeBot;
     public float time;
@@ -21,18 +23,33 @@ public class SpawnObject : MonoBehaviour
     public float scaleDifficulty;
 
     [Header("Aids")]
-    public GameObject[] aids;
-    public float aidsInvoked;
-    public float timeSpawnAid;
-    private void Start()
-    {
-        timeNextSpawn = timeSpawn;
-        timeSpawnAid = Random.Range(15, 30);
-    }
+    public GameObject aid;
+    public List<float> aidsToSpawn;
 
     [Header("Coins")]
     public GameObject coin;
-    public
+    public int coinsTotal;
+    public float[] rateSpawnCoin;
+    public float timeSpawnCoin;
+    public float count;
+
+    private void Start()
+    {
+        timeNextSpawn = timeSpawn;
+
+        //Configuración de generacion de botiquines
+        aidsToSpawn.Add(Random.Range(durationLevel * 0.25f, durationLevel * 0.45f));
+        aidsToSpawn.Add(Random.Range(durationLevel * 0.55f, durationLevel * 0.95f));
+
+        //Configuración de generacion de monedas
+        float rateSpawnCoin = durationLevel / coinsTotal;
+        float[] rangeSpawnCoin = new float[2];
+        rangeSpawnCoin[0] = rateSpawnCoin * 0.8f;
+        rangeSpawnCoin[1] = rateSpawnCoin * 1.1f;
+        this.rateSpawnCoin = rangeSpawnCoin;
+        timeSpawnCoin = rateSpawnCoin;
+
+    }
 
     private void Update()
     {
@@ -42,7 +59,6 @@ public class SpawnObject : MonoBehaviour
         {
             timeNextSpawn = timeSpawn;
             SpawnEnemies();
-            SpawnCoin();
             UpDifficulty();
         }
 
@@ -56,10 +72,15 @@ public class SpawnObject : MonoBehaviour
 
         //RNF3 Genera los botiquines, calcula de forma aleatoria segun un rango dado en que momento se generara un botiquin
         time += Time.deltaTime;
-        if (timeSpawnAid <= time && aidsInvoked < 2) {
+        if (aidsToSpawn.Count > 0 && aidsToSpawn[0] <= time)
+        {
             SpawnAids();
-            timeSpawnAid = Random.Range(35, 60);
-            aidsInvoked++;
+            aidsToSpawn.RemoveAt(0);
+        }
+
+        if (time >= timeSpawnCoin && coinsTotal > 0)
+        {
+            SpawnCoin();
         }
     }
 
@@ -72,16 +93,11 @@ public class SpawnObject : MonoBehaviour
 
     private void SpawnEnemies()
     {
-        Vector3 spawnPosition = new Vector3(
-            Random.Range(spawnRangeTop.x, spawnRangeBot.x),
-            Random.Range(spawnRangeTop.y, spawnRangeBot.y)
-        );
         GameObject enemy = enemies[Random.Range(0, enemies.Length)];
-        enemy.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
-        Instantiate(enemy, spawnPosition, gameObject.transform.rotation);
+        SpawnObj(enemy);
 
         // Genera un numero al azar del 0 al 10, y si este es menor a 3 vuelve a generar otro enemigo (30% de probabilidad)
-        if (Random.Range(0, 10) < 3)
+        if (Random.Range(0, 10) < 2)
         {
             SpawnEnemies();
         }
@@ -90,23 +106,24 @@ public class SpawnObject : MonoBehaviour
 
     private void SpawnAids()
     {
-        Vector3 spawnPosition = new Vector3(
-            Random.Range(spawnRangeTop.x, spawnRangeBot.x),
-            Random.Range(spawnRangeTop.y, spawnRangeBot.y)
-        );
-        GameObject obj = aids[Random.Range(0, aids.Length)];
-        obj.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
-        Instantiate(obj, spawnPosition, gameObject.transform.rotation);
+        SpawnObj(aid);
     }
 
     private void SpawnCoin()
     {
+        SpawnObj(coin);
+        coinsTotal--;
+        timeSpawnCoin += Random.Range(rateSpawnCoin[0], rateSpawnCoin[1]);
+    }
+
+    private void SpawnObj(GameObject obj)
+    {
+        obj.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
         Vector3 spawnPosition = new Vector3(
             Random.Range(spawnRangeTop.x, spawnRangeBot.x),
             Random.Range(spawnRangeTop.y, spawnRangeBot.y)
         );
-        coin.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
-        Instantiate(coin, spawnPosition, gameObject.transform.rotation);
+        Instantiate(obj, spawnPosition, Quaternion.identity);
     }
 }
 

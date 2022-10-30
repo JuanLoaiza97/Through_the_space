@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyObject : ProjectileMotion
 {
     public Sprite[] sprites;
+    public GameObject explosionEffect;
     public float damage;
 
     private void Start()
@@ -17,5 +18,11 @@ public class EnemyObject : ProjectileMotion
         Move();
         Rotation();
         ValidateDestroy();
+    }
+
+    public void Destroy()
+    {
+        Instantiate(explosionEffect, transform.position, Quaternion.identity);
+        Destroy(this.gameObject);
     }
 }

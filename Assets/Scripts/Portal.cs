@@ -2,15 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Portal : MonoBehaviour
+public class Portal : ProjectileMotion
 {
-    public float speed = 3;
+    public float MoveLimit;
+    private void Start() {
+        GetComponent<AudioSource>().volume = 0;
+    }
+
     private void Update()
     {
-         transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed * 10));
-        if (transform.position.x > 0)
+        Rotation();
+
+        if (transform.position.x > MoveLimit)
         {
-            transform.position += Vector3.left * Time.deltaTime * speed;
+            Move();
         }
+
+        TurnUpVolumeSound();
+    }
+
+    private void TurnUpVolumeSound()
+    {
+        GetComponent<AudioSource>().volume += Time.deltaTime * speed / 100;
     }
 }
