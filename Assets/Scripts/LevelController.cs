@@ -37,6 +37,7 @@ public class LevelController : MonoBehaviour
         levelProgressBar.UpdateBar(0, 1);
         scoreIndicator.UpdateIndicator(0);
         SoundController.instance.SetBackgroundMusic(SoundController.instance.niviru5003);
+        SoundController.instance.ResetVolumeBackgroundMusic();
     }
 
     private void Update()
@@ -96,12 +97,13 @@ public class LevelController : MonoBehaviour
 
     public void FinishLevel()
     {
+        SoundController.instance.TurnDownBackgroundMusic();
         spawnObject.SetActive(false);
         // RNT1 Si al finalizar el nivel tiene más del 80% de vida gana 20 puntos, si no gana 10
         spaceShip.points += Mathf.Round(spaceShip.currentLife / spaceShip.life) >= 80 ? 20 : 10;
         UpdateScoreIndicator();
         //RF5 Generar portal
-        Instantiate(portal, new Vector3(11, 0, 1), gameObject.transform.rotation);
+        Instantiate(portal, new Vector3(16, 0, 1), gameObject.transform.rotation);
     }
 
     public void UpdateScoreIndicator()

@@ -22,6 +22,9 @@ public class Spaceship : MonoBehaviour
     public float maximoX;
     public float minimoX;
 
+    public Sprite staticShip;
+    public Sprite movingShip;
+
     private void Start()
     {
         currentLife = life;
@@ -38,6 +41,15 @@ public class Spaceship : MonoBehaviour
         //Captura la posicion de joystick en ambos ejes, que va desde -1 a 1
         float verticalMove = joystick.Vertical;
         float horizontalMove = joystick.Horizontal;
+
+        if (verticalMove != 0 && horizontalMove != 0) 
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = movingShip;
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = staticShip;
+        }
 
         /*A la posicion actual se le suma un vector en base a la posicion del joystick.
          *Normalized se usa para que el movimiento en diagonal sea igual al movimiento en los ejes x,y.

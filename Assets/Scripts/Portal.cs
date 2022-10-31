@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Portal : ProjectileMotion
 {
-    public float MoveLimit;
+    public float moveLimit;
     private void Start() {
         GetComponent<AudioSource>().volume = 0;
     }
@@ -13,7 +13,7 @@ public class Portal : ProjectileMotion
     {
         Rotation();
 
-        if (transform.position.x > MoveLimit)
+        if (transform.position.x > moveLimit)
         {
             Move();
         }
@@ -23,6 +23,6 @@ public class Portal : ProjectileMotion
 
     private void TurnUpVolumeSound()
     {
-        GetComponent<AudioSource>().volume += Time.deltaTime * speed / 100;
+        GetComponent<AudioSource>().volume += Time.deltaTime * speed * 7 / 100;
     }
 }

@@ -25,6 +25,7 @@ public class SoundController : MonoBehaviour
     public AudioClip win;
 
     private AudioSource fxSource;
+    private bool turnDownVolumeMusic;
 
     private void Awake()
     {
@@ -39,6 +40,15 @@ public class SoundController : MonoBehaviour
         }
         
         fxSource = GetComponent<AudioSource>();
+        turnDownVolumeMusic = false;
+    }
+
+    private void Update() 
+    {
+        if (turnDownVolumeMusic)
+        {
+            DownBackgroundMusic();
+        }
     }
 
     public void PlaySound(AudioClip audioClip)
@@ -85,5 +95,26 @@ public class SoundController : MonoBehaviour
     public void StopBackgroundMusic()
     {
         backgroundSound.Stop();
+    }
+
+    public void ResetVolumeBackgroundMusic()
+    {
+        backgroundSound.volume = 1;
+    }
+
+    public void TurnDownBackgroundMusic()
+    {
+        turnDownVolumeMusic = true;
+    }
+
+    private void DownBackgroundMusic()
+    {
+        if (backgroundSound.volume > 0.2f)
+        {
+            Debug.Log(backgroundSound.volume);
+            backgroundSound.volume -= Time.deltaTime * 3 / 10;
+            return;
+        }
+        turnDownVolumeMusic = false;
     }
 }

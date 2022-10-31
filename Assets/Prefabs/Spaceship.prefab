@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2414078650861320371}
   - component: {fileID: 2414078650861320380}
   - component: {fileID: 2414078650861320369}
-  - component: {fileID: 2414078650861320368}
+  - component: {fileID: 8662107567960789022}
   m_Layer: 0
   m_Name: Spaceship
   m_TagString: Untagged
@@ -37,9 +37,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -493.5904, y: -244.97}
+  m_AnchoredPosition: {x: -508.80872, y: -252.4776}
   m_SizeDelta: {x: -958.55554, y: -472.88}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!212 &2414078650861320371
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa89a6ab70dfc9d4abc0042f00a55693, type: 3}
+  m_Sprite: {fileID: -1760024458, guid: 748dd13e0bb32ca4bbffbe70933b7205, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,6 +104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e91ee6b14c4864f8438355b5b22c1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelController: {fileID: 0}
+  barLife: {fileID: 0}
+  life: 0
+  currentLife: 0
+  points: 0
   speedMove: 5
   joystick: {fileID: 0}
   maximoY: 4.3
@@ -131,7 +136,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!70 &2414078650861320368
+--- !u!70 &8662107567960789022
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,6 +149,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.8241109, y: -0.082433134}
-  m_Size: {x: 19.796305, y: 12.99958}
-  m_Direction: 1
+  m_Offset: {x: -0.0002937317, y: -0.00038146973}
+  m_Size: {x: 6.480001, y: 4.9400005}
+  m_Direction: 0
