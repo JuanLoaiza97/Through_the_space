@@ -8,6 +8,7 @@ public class SpawnObject : MonoBehaviour
     [Header("Spawn config")]
 
     public float durationLevel;
+    public int lanesTotal;
     public Vector2 spawnRangeTop;
     public Vector2 spawnRangeBot;
     public float time;
@@ -33,6 +34,8 @@ public class SpawnObject : MonoBehaviour
     public float timeSpawnCoin;
     public float count;
 
+    private float[] lanesSpawn;
+    private Vector3 lastLaneSpawn;
     private void Start()
     {
         timeNextSpawn = timeSpawn;
@@ -49,6 +52,18 @@ public class SpawnObject : MonoBehaviour
         this.rateSpawnCoin = rangeSpawnCoin;
         timeSpawnCoin = rateSpawnCoin;
 
+        //Configuración de carriles
+        lanesSpawn = new float[lanesTotal];
+        float laneSize = (spawnRangeTop.y - spawnRangeBot.y) / lanesTotal;
+        for (int i = 0; i < lanesTotal; i++)
+        {
+            if (i == 0)
+            {
+                lanesSpawn[i] = spawnRangeTop.y - (laneSize / 2);
+                continue;
+            }
+            lanesSpawn[i] = lanesSpawn[i-1] - laneSize;
+        }
     }
 
     private void Update()
@@ -97,7 +112,7 @@ public class SpawnObject : MonoBehaviour
         SpawnObj(enemy);
 
         // Genera un numero al azar del 0 al 10, y si este es menor a 3 vuelve a generar otro enemigo (30% de probabilidad)
-        if (Random.Range(0, 10) < 2)
+        if (Random.Range(0, 10) < 3)
         {
             SpawnEnemies();
         }
@@ -118,11 +133,16 @@ public class SpawnObject : MonoBehaviour
 
     private void SpawnObj(GameObject obj)
     {
+        Vector3 spawnPosition;
+        do
+        {
+            spawnPosition = new Vector3(
+                Random.Range(spawnRangeTop.x, spawnRangeBot.x),
+                lanesSpawn[Random.Range(0, lanesSpawn.Length)]
+            );
+        } while (lastLaneSpawn != null && lastLaneSpawn == spawnPosition);
+        lastLaneSpawn = spawnPosition;
         obj.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
-        Vector3 spawnPosition = new Vector3(
-            Random.Range(spawnRangeTop.x, spawnRangeBot.x),
-            Random.Range(spawnRangeTop.y, spawnRangeBot.y)
-        );
         Instantiate(obj, spawnPosition, Quaternion.identity);
     }
 }

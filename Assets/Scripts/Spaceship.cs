@@ -86,6 +86,7 @@ public class Spaceship : MonoBehaviour
         else if (other.collider.CompareTag("Portal"))
         {
             SoundController.instance.PlayTeleportationSound();
+            SoundController.instance.StopBackgroundMusic();
             //levelController.NextLevel();
         }
         else if (other.collider.CompareTag("Coin"))

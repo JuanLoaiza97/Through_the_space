@@ -111,7 +111,6 @@ public class SoundController : MonoBehaviour
     {
         if (backgroundSound.volume > 0.2f)
         {
-            Debug.Log(backgroundSound.volume);
             backgroundSound.volume -= Time.deltaTime * 3 / 10;
             return;
         }

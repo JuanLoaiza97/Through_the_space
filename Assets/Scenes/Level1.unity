@@ -438,6 +438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   durationLevel: 60
+  lanesTotal: 7
   spawnRangeTop: {x: 11, y: 4.2}
   spawnRangeBot: {x: 11, y: -4.2}
   time: 0
@@ -736,6 +737,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385750122}
   m_CullTransparentMesh: 1
+--- !u!224 &400503407 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6180055333142401767, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+  m_PrefabInstance: {fileID: 2414078651469762379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &450637758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,7 +2110,7 @@ RectTransform:
   - {fileID: 1569659623}
   - {fileID: 1203659128}
   - {fileID: 461567072}
-  - {fileID: 1556412413}
+  - {fileID: 400503407}
   - {fileID: 168348505}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -2187,7 +2193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99609ccf5b5784147a07d47d649c291c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spaceShip: {fileID: 1584258788}
+  spaceShip: {fileID: 6180055333182847998, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
   portal: {fileID: 3536130264826053631, guid: 14c34e99d2cc44340b2188eac3154e07, type: 3}
   nextLevel: Level2
   pausePanel: {fileID: 1569659620}
@@ -2315,7 +2321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.20654297, y: -11.9999695}
+  m_AnchoredPosition: {x: 0.20654297, y: -12}
   m_SizeDelta: {x: -195, y: -297.7072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1122544777
@@ -2984,11 +2990,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548113201}
   m_CullTransparentMesh: 1
---- !u!224 &1556412413 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2414078650861320374, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
-  m_PrefabInstance: {fileID: 2414078651469762379}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1569659620
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,17 +3067,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1584258788 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2414078650861320380, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
-  m_PrefabInstance: {fileID: 2414078651469762379}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e91ee6b14c4864f8438355b5b22c1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1632081708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,6 +3649,30 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6180055333142401767, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6180055333142401767, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -493.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6180055333142401767, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -244.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6180055333182847998, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+      propertyPath: barLife
+      value: 
+      objectReference: {fileID: 1945019996}
+    - target: {fileID: 6180055333182847998, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 461567071}
+    - target: {fileID: 6180055333182847998, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 1078275350}
     - target: {fileID: 8662107567960789022, guid: 356ecc3320d9c8f4daf9b1e3759a8116, type: 3}
       propertyPath: m_Direction
       value: 1
