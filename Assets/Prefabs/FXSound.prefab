@@ -271,16 +271,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 4a2f95fd3e681f540928a16125acbe1f, type: 2}
-  background: {fileID: 0}
+  backgroundSound: {fileID: 0}
   button: {fileID: 8300000, guid: 2d0f1614617f0b64ea4b095f02cc148b, type: 3}
   teleportation: {fileID: 8300000, guid: 7a3612321369c6446bc97f4d290ee96f, type: 3}
   gameOver: {fileID: 8300000, guid: 582002cf38f9a3540b7134ac2eafece4, type: 3}
   portal: {fileID: 8300000, guid: 734af7a61d989a142969e26f246349fd, type: 3}
-  aliens: {fileID: 8300000, guid: 419276892bcc3f545a738f684a384d95, type: 3}
   coin: {fileID: 8300000, guid: 5c72fe4094a4d80478f2e1e93f46b59d, type: 3}
   collision: {fileID: 8300000, guid: f45935b7a59b00b4798bc9bd1769b93c, type: 3}
   firstAidKit: {fileID: 8300000, guid: 6e38080006a33184ab37553c8007a627, type: 3}
-  gabrielon: {fileID: 8300000, guid: 7a0ca97cd58e33741a9fe8914a466a3e, type: 3}
-  niviru5003: {fileID: 8300000, guid: 3b49b2476dac11842884bb33bca895e4, type: 3}
   menuMusic: {fileID: 8300000, guid: 8c12ce002d3f71040a9a7fba11c7d8bd, type: 3}
+  niviru5003: {fileID: 8300000, guid: 3b49b2476dac11842884bb33bca895e4, type: 3}
+  tezno1789: {fileID: 8300000, guid: e7fc6de1679e8cb48b8dfc30da844ab0, type: 3}
+  pixelon1902: {fileID: 8300000, guid: 934cc14d5de10084bb333c11fae42919, type: 3}
+  vert1317: {fileID: 8300000, guid: 7a0ca97cd58e33741a9fe8914a466a3e, type: 3}
   win: {fileID: 8300000, guid: eb6258ba89d0e5a41a534d7a23f18cde, type: 3}

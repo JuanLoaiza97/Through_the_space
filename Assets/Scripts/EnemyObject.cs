@@ -7,6 +7,7 @@ public class EnemyObject : ProjectileMotion
     public Sprite[] sprites;
     public GameObject explosionEffect;
     public float damage;
+    public bool rotation;
 
     private void Start()
     {
@@ -16,8 +17,11 @@ public class EnemyObject : ProjectileMotion
     private void Update()
     {
         Move();
-        Rotation();
         ValidateDestroy();
+        if (rotation)
+        {
+            Rotation();
+        }
     }
 
     public void Destroy()

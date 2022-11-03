@@ -5,6 +5,8 @@ using UnityEngine;
 public class ProjectileMotion : MonoBehaviour
 {
     public float speed;
+
+    public float speedRotation = 10;
     public float destroyLimit;
     protected void Move()
     {
@@ -13,7 +15,7 @@ public class ProjectileMotion : MonoBehaviour
 
     protected void Rotation()
     {
-        transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed * 10));
+        transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed * speedRotation));
     }
 
     protected void ValidateDestroy()

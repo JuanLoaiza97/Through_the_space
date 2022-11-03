@@ -15,15 +15,18 @@ public class SoundController : MonoBehaviour
     public AudioClip teleportation;
     public AudioClip gameOver;
     public AudioClip portal;
-    public AudioClip aliens;
     public AudioClip coin;
     public AudioClip collision;
     public AudioClip firstAidKit;
-    public AudioClip gabrielon;
-    public AudioClip niviru5003;
     public AudioClip menuMusic;
+    public AudioClip niviru5003;
+    public AudioClip tezno1789;
+    public AudioClip pixelon1902;
+    public AudioClip vert1317;
     public AudioClip win;
 
+    //TODO Temporal
+    public int score = 0;
     private AudioSource fxSource;
     private bool turnDownVolumeMusic;
 

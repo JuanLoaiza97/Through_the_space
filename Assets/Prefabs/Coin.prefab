@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4456741832413277901}
   - component: {fileID: 4456741832413277900}
-  - component: {fileID: 4456741832413277891}
   - component: {fileID: -8726366631336908407}
   - component: {fileID: -7639502687901291659}
+  - component: {fileID: 8533940924479428727}
   m_Layer: 5
   m_Name: Coin
   m_TagString: Coin
@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 4456741832413277902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,18 +81,49 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2111007432, guid: 05fd51eef8eaf2b44b754c2a291ffedf, type: 3}
+  m_Sprite: {fileID: 515300865, guid: 01c0546ade57b3d42b4b85ae267024c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.81, y: 1.71}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4456741832413277891
+--- !u!114 &-8726366631336908407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456741832413277902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab79ca435b365bf47b50ea72d2adcee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6.040657
+  destroyLimit: -12
+  points: 10
+--- !u!58 &-7639502687901291659
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456741832413277902}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.008967419}
+  serializedVersion: 2
+  m_Radius: 0.8674787
+--- !u!95 &8533940924479428727
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -112,34 +143,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-8726366631336908407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4456741832413277902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab79ca435b365bf47b50ea72d2adcee8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10.847575
-  destroyLimit: -12
-  points: 10
---- !u!58 &-7639502687901291659
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4456741832413277902}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1.28

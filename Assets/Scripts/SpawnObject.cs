@@ -22,6 +22,7 @@ public class SpawnObject : MonoBehaviour
     public float timeDifficulty;
     public float timeNextDifficulty;
     public float scaleDifficulty;
+    public int probabilitySpawnOtherEnemy;
 
     [Header("Aids")]
     public GameObject aid;
@@ -83,6 +84,10 @@ public class SpawnObject : MonoBehaviour
             timeNextDifficulty = timeDifficulty;
             speedRange[0] += scaleDifficulty;
             speedRange[1] += scaleDifficulty;
+            if (probabilitySpawnOtherEnemy <= 5)
+            {
+                probabilitySpawnOtherEnemy += 1;
+            }
         }
 
         //RNF3 Genera los botiquines, calcula de forma aleatoria segun un rango dado en que momento se generara un botiquin
@@ -90,7 +95,6 @@ public class SpawnObject : MonoBehaviour
         if (aidsToSpawn.Count > 0 && aidsToSpawn[0] <= time)
         {
             SpawnAids();
-            aidsToSpawn.RemoveAt(0);
         }
 
         if (time >= timeSpawnCoin && coinsTotal > 0)
@@ -112,7 +116,7 @@ public class SpawnObject : MonoBehaviour
         SpawnObj(enemy);
 
         // Genera un numero al azar del 0 al 10, y si este es menor a 3 vuelve a generar otro enemigo (30% de probabilidad)
-        if (Random.Range(0, 10) < 3)
+        if (Random.Range(0, 10) < probabilitySpawnOtherEnemy)
         {
             SpawnEnemies();
         }
@@ -122,6 +126,7 @@ public class SpawnObject : MonoBehaviour
     private void SpawnAids()
     {
         SpawnObj(aid);
+        aidsToSpawn.RemoveAt(0);
     }
 
     private void SpawnCoin()
@@ -141,6 +146,7 @@ public class SpawnObject : MonoBehaviour
                 lanesSpawn[Random.Range(0, lanesSpawn.Length)]
             );
         } while (lastLaneSpawn != null && lastLaneSpawn == spawnPosition);
+
         lastLaneSpawn = spawnPosition;
         obj.GetComponent<ProjectileMotion>().speed = Random.Range(speedRange[0], speedRange[1]);
         Instantiate(obj, spawnPosition, Quaternion.identity);

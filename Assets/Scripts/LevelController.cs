@@ -4,12 +4,14 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class LevelController : MonoBehaviour
 {
     public Spaceship spaceShip;
     public GameObject portal;
-    public string nextLevel;
+    
+    public int level;
 
     [Header("Pause panel")]
     public GameObject pausePanel;
@@ -35,9 +37,29 @@ public class LevelController : MonoBehaviour
         pausePanel.SetActive(false);
         gameOverPanel.SetActive(false);
         levelProgressBar.UpdateBar(0, 1);
-        scoreIndicator.UpdateIndicator(0);
-        SoundController.instance.SetBackgroundMusic(SoundController.instance.niviru5003);
+        spaceShip.points = SoundController.instance.score;
+        scoreIndicator.UpdateIndicator(spaceShip.points);
         SoundController.instance.ResetVolumeBackgroundMusic();
+
+        AudioClip music = null;
+        if (level == 1)
+        {
+            music = SoundController.instance.niviru5003;
+        }
+        else if (level == 2)
+        {
+            music = SoundController.instance.tezno1789;
+        }
+        else if (level == 3)
+        {
+            music = SoundController.instance.pixelon1902;
+        }
+        else if (level == 4)
+        {
+            music = SoundController.instance.vert1317;
+        }
+
+        SoundController.instance.SetBackgroundMusic(music);
     }
 
     private void Update()
@@ -103,7 +125,12 @@ public class LevelController : MonoBehaviour
         spaceShip.points += Mathf.Round(spaceShip.currentLife / spaceShip.life) >= 80 ? 20 : 10;
         UpdateScoreIndicator();
         //RF5 Generar portal
-        Instantiate(portal, new Vector3(16, 0, 1), gameObject.transform.rotation);
+        Invoke("InstantiatePortal", 3);
+    }
+
+    private void InstantiatePortal()
+    {
+        Instantiate(portal, new Vector3(13, 0, 1), gameObject.transform.rotation);
     }
 
     public void UpdateScoreIndicator()
@@ -113,6 +140,8 @@ public class LevelController : MonoBehaviour
 
     public void NextLevel()
     {
+        SoundController.instance.score = spaceShip.points;
+        int nextLevel = (level + 1) % 4;
         SceneManager.LoadScene(nextLevel);
     }
 }
