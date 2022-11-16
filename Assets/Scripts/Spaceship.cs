@@ -6,6 +6,9 @@ public class Spaceship : MonoBehaviour
 {
     public LevelController levelController;
 
+    [SerializeField] private Transform gun;
+    [SerializeField] private GameObject bullet;
+
     [Header("Life")]
     public ProgressBar barLife;
     public float life;
@@ -42,7 +45,7 @@ public class Spaceship : MonoBehaviour
         float verticalMove = joystick.Vertical;
         float horizontalMove = joystick.Horizontal;
 
-        if (verticalMove != 0 && horizontalMove != 0) 
+        if (verticalMove != 0 && horizontalMove != 0)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = movingShip;
         }
@@ -62,18 +65,13 @@ public class Spaceship : MonoBehaviour
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, minimoX, maximoX), Mathf.Clamp(transform.position.y, minimoY, maximoY));
     }
 
-    private void OnCollisionEnter2D(Collision2D other) {
+    private void OnCollisionEnter2D(Collision2D other)
+    {
         //RF1 Recibir daño si choca con un enemigo
         if (other.collider.CompareTag("Enemy"))
         {
-            SoundController.instance.PlayCollisionSound();
             other.gameObject.GetComponent<EnemyObject>().Destroy();
             ReceiveDamage(other.gameObject.GetComponent<EnemyObject>().damage);
-            if (currentLife <= 0) 
-            {
-                SoundController.instance.PlayGameOverSound();
-                levelController.GameOver(points);
-            }
         }
         //RNF3 Curarse
         else if (other.collider.CompareTag("FistAidKit"))
@@ -95,21 +93,26 @@ public class Spaceship : MonoBehaviour
             Destroy(other.gameObject);
             AddPoints(other.gameObject.GetComponent<Coin>().points);
         }
-        
+
     }
 
 
-    private void ReceiveDamage(float damage)
+    public void ReceiveDamage(float damage)
     {
         currentLife -= damage;
         //RF1 Actualizar barra de vida al recibir daño
         barLife.UpdateBar(currentLife, life);
+        if (currentLife <= 0)
+        {
+            SoundController.instance.PlayGameOverSound();
+            levelController.GameOver(points);
+        }
     }
 
     private void Heal(float healing)
     {
         currentLife += healing;
-        if (currentLife > life) 
+        if (currentLife > life)
         {
             currentLife = life;
         }
@@ -120,5 +123,11 @@ public class Spaceship : MonoBehaviour
     {
         this.points += points;
         levelController.UpdateScoreIndicator();
+    }
+
+    public void Shoot()
+    {
+        Debug.Log("Pium");
+        Instantiate(bullet, gun.position, gun.rotation);
     }
 }

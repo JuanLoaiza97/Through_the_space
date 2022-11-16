@@ -8,10 +8,20 @@ public class EnemyObject : ProjectileMotion
     public GameObject explosionEffect;
     public float damage;
     public bool rotation;
+    public bool noSprite;
+
+    public string[] words;
 
     private void Start()
     {
-        gameObject.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
+        if (noSprite)
+        {
+            GetComponent<TextMesh>().text = words[Random.Range(0, words.Length)];
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length)];
+        }
     }
 
     private void Update()
