@@ -65,7 +65,7 @@ public class LevelController : MonoBehaviour
             music = SoundController.instance.gabrielon;
         }
 
-        if (level == 4)
+        if (level != 4)
         {
             SoundController.instance.SetBackgroundMusic(music);
         }
