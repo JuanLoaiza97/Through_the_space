@@ -1,0 +1,2797 @@
+fileFormatVersion: 2
+guid: 7415c109b72d9b6498d33b85e4c39d66
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gabrielon-1_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6133
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d46f8e5f2f0a349894b3dde9bf08d4
+      internalID: -1094090909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 6132
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a6ec9de032824aa28060810fbdda6
+      internalID: 734655064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_2
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 6131
+        width: 344
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62a24aa21c721746a251aae279e1187
+      internalID: -1477297556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_3
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 6132
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3491a51ac64a64e40803563c40cbefe2
+      internalID: 1121609287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_4
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 6134
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc79ffcc4f681a84295abadc4a4ed378
+      internalID: -1524038175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_5
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 6138
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af82426e9852a5742bde68d50728f64f
+      internalID: 2025384857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_6
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 6141
+        width: 345
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032eb900dccab484e9c15cca3f77d527
+      internalID: 344750504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5781
+        width: 345
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c0de1ecb9b877459778cce11facd57
+      internalID: 834421198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 5780
+        width: 345
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b77e4f41454c14ca4b29688fbb51d1
+      internalID: -480032317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 5777
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3548d74c712f014786b21e64416c461
+      internalID: -1298679239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_10
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 5773
+        width: 345
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7067619e8f7e65b45aa3e4fe0d3e90b4
+      internalID: -758806870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_11
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 5771
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24aa3ad0e006c343a2319cbb6d85e7c
+      internalID: 934767967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_12
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 5771
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e825025d139a3904b8f9760ac9b000b2
+      internalID: -825963124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_13
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 5773
+        width: 345
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f75dd51b133b4696b7039016bdfe9
+      internalID: -985221578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5416
+        width: 345
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5539f4c394d7f8c40b03f702fb44b822
+      internalID: 145936087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_15
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 5418
+        width: 345
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55df1f945cde0c4e9272381012c6aa7
+      internalID: -186640290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_16
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 5419
+        width: 345
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51625fb84872cbb4e8943e1ca0fa3214
+      internalID: -1373547751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_17
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 5418
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ecf5b65c963a54d96ee30946ed0251
+      internalID: 161175892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_18
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 5415
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f68ca7b8e3b7a439bec814c18a57f8
+      internalID: 686806352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_19
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 5412
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c449ab43843f7947a754bce416986d3
+      internalID: 244793097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_20
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 5411
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e42f349b2a1d048920712056532e3d
+      internalID: 397518104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5051
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7bd9a051ea58f4a8427eb4334d1f48
+      internalID: 50519412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_22
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 5053
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccaf00922ff75e488846164c7418db0
+      internalID: 1802491736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_23
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 5056
+        width: 344
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d20adbecf91941ab20d7e12d948d9
+      internalID: 329963401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_24
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 5057
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0b83c0dc6a25f43a9e476486a70436
+      internalID: -509772751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_25
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 5057
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850a922ff90d8ad46a82d05f37534ea3
+      internalID: -2146999286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_26
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 5055
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a611e0372e03645aef843e70505eb3
+      internalID: -190736993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_27
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 5053
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91c383fdbd311c47b8262ccd82fc08c
+      internalID: -1581386390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4692
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00e872201d4d8f4cb45eac43e20ac4c
+      internalID: 630914540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_29
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 4693
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b29b657bdf5794b976cf3de802226a
+      internalID: -1166554951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_30
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 4694
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2aab86c970c8a45beb0fde3469a43d
+      internalID: 1550551720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_31
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 4696
+        width: 344
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f99173f2e230a488f635e7657d56af
+      internalID: 1956279502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_32
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 4697
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c49c3889f36a4f49a61e415a23c1b1f
+      internalID: -634319088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_33
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 4697
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de45fbede4af5f34a90b131f50c96d24
+      internalID: 541989512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_34
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 4697
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5f8481483f2d341ad37c700c917b2c
+      internalID: -1941069988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4336
+        width: 345
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6bcd73507c01e44b68c244f8e11bb4
+      internalID: -373420325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_36
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 4334
+        width: 345
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5893e682f0a4a3b44aea8c3cf624fd4a
+      internalID: 1833456709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_37
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 4333
+        width: 345
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0db081d0649d7a438d993d0238978b5
+      internalID: -1298361065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_38
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 4331
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe01baf1f76a284d980829d4bee2f1d
+      internalID: 691290917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_39
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 4330
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd55edd6fc2d42e4ebcc32a5ee3f403f
+      internalID: -553699272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_40
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 4330
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a90ab1d6da1a5b438cb236a4dfa7db2
+      internalID: 536857816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_41
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 4329
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c64119053ebd664c95b8a96776c3202
+      internalID: -1185944450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3969
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd2dc78e8deb114cbe4fa67faee833d
+      internalID: 1064647758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 3969
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b671945e7f44449bdc375c76847e4c
+      internalID: -1773250750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_44
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3969
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136d0a660d0a23d438fb166571e03e6e
+      internalID: 1503935957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_45
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3970
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c8291fdab2db444aa8b90eae7ee9fd
+      internalID: -1662861597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_46
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 3970
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fbd2d55295d1343b0a85f607da34ab
+      internalID: -1088128656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_47
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3971
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f709584dfcdd44b6e5ee90a9d6770
+      internalID: -100161182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_48
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 3972
+        width: 345
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738ed2a61b0697746968d4f8b476bab0
+      internalID: 988491423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3614
+        width: 345
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbbb004c080f7647a4955408f2826f0
+      internalID: -550961993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_50
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 3616
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b680d844d5c4cd4eab72c2af9e3e4d5
+      internalID: 1564156739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_51
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3617
+        width: 345
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceac881d6d270b04a8e9751a2f659d68
+      internalID: -1323413894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_52
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3616
+        width: 345
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fd38b011b659244b59e832272817f1
+      internalID: -310101825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_53
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 3614
+        width: 345
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8560f9902b87afd49a53d5bff60be1c4
+      internalID: 1596321280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_54
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3612
+        width: 345
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2902c201995debc409e649c680ae1d1d
+      internalID: -1780384493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_55
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 3611
+        width: 345
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6413d5399787c4bbec887189b58641
+      internalID: 2006082200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_56
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3252
+        width: 345
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64350a39a8eb0744bc5084420a5e0ce
+      internalID: 1943960710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_57
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 3254
+        width: 345
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b103d020137e6419595f1327967516
+      internalID: 1319689670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_58
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3255
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d462d0f15b1fd8499d569e7f937a00f
+      internalID: -1854778355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_59
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3255
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba55699921cf5884d8bea77ba14f8cea
+      internalID: -367530466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_60
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 3254
+        width: 345
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45056e8fca68d444a55bde2198d369d
+      internalID: -45193764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_61
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3253
+        width: 345
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fb86d598110194f80c92e986fcd3ff
+      internalID: 1439621371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_62
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 3251
+        width: 345
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097e02bbf580eb64e926e941b34e2472
+      internalID: -2056308350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_63
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2890
+        width: 345
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b233b9d02746a94f87104ce1da02b67
+      internalID: -1849832156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_64
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2890
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa3ba252c5cad41b5048aab2a0c1b7
+      internalID: 1851795596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_65
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2891
+        width: 345
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d27dfbd088db94192ac7d970274750
+      internalID: -579487791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_66
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2894
+        width: 345
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce17d8317d435ba41888177431ff15ec
+      internalID: 2063333445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_67
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 2897
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb6ada141551c44b9123ce88b8d8f47
+      internalID: -1992831865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_68
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2899
+        width: 345
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beca3011ea082b4d9b2f1e14de8d742
+      internalID: 448720076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_69
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 2900
+        width: 344
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8b6c1b931dff24791ee477154f1ca4
+      internalID: -160315086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_70
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2540
+        width: 344
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9307f1b93ef21e448b50fdffb3ca37e4
+      internalID: 954635717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_71
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2539
+        width: 344
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a51b1a19c94a2408f455409675b854
+      internalID: 1628767995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_72
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2537
+        width: 344
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74fe53e179457f4680f52ec574f724b
+      internalID: -1773695300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_73
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2534
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad204658c3589469eb6f11f3405505
+      internalID: -1183380446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_74
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2532
+        width: 345
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9186e447dace91428206183a5a070b7
+      internalID: 1076150205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_75
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2531
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77270623a53bc164dbfa040b7d7339d0
+      internalID: 857946615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_76
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2530
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac1eeb4feac61f47aed1ca2f61a0712
+      internalID: 596059954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2169
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9baf66c1cac9ea4fafe8e107d7114b4
+      internalID: -881383821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_78
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2168
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc324bad7437eba49a7d92d42337e17d
+      internalID: 1463107839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_79
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2168
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eb6b64ed5e6214a88b896a3782dbd2
+      internalID: -1885281240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_80
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2168
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c9870dd136f2147aa45279eb3fd707
+      internalID: -568608147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_81
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2168
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623cfdb0707b11b419ab5644d504fdbc
+      internalID: -1105033047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_82
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2167
+        width: 345
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aede7c403550446adfb824d4ef4755
+      internalID: 1705732414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_83
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2167
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687c6361bbf81814e96a6ca2352e3558
+      internalID: -246562576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1807
+        width: 345
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6895c112d5272e64d9a37ef8d6ec7e0a
+      internalID: 1383357711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_85
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1807
+        width: 344
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e6eee6bfe01ef4484362d1f93b2810
+      internalID: 2076900683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_86
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1807
+        width: 344
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8100d3cb760ffa44bb7cdb4ad1c69ae
+      internalID: -367713700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_87
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1808
+        width: 344
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942bea2312594c446883c2f1fbd1e0a7
+      internalID: 562949925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_88
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1810
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881055eadbd9be14ab8fc1697537d850
+      internalID: 1883829688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_89
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1813
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28952c46ca4a20e4d81a1bff470e0959
+      internalID: -1976126621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_90
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1816
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1b27f9fe83b045a44d04ba1552aa1
+      internalID: 594893256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1458
+        width: 344
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062ab00770c31484eb02d81fdac7a4bd
+      internalID: -1696046356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_92
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1458
+        width: 344
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f70bdcb0baaa4b8e421aa2baef5f3
+      internalID: 225394978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_93
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1456
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fd5c251e50ee74099084688582c1df
+      internalID: 873170567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_94
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1453
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49953198aa18e3841a34df5c8b4e8bee
+      internalID: 498209971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_95
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1451
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c31e97b68017448aae2171bcaa1c06
+      internalID: 1758462281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_96
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1449
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d3031d4d6e889498e3212d3505e47e
+      internalID: -160210897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_97
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1449
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0a34d7286e9424c91d1c6676e2d1eb
+      internalID: 1743652345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_98
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1090
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7602375c7005843a0e6ad9c5c0aa52
+      internalID: -1286586744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_99
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1091
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc07bca9548fac4e8c8b24829281f2d
+      internalID: -1272361550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_100
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1093
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272187120c6152d4a976a1b0c10d07dd
+      internalID: 1606603044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_101
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1094
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ed9b1a14ec304fbcfe1b295ba30f2
+      internalID: 468350612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_102
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1093
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb74ef952f53f04c92a41a04c7f000e
+      internalID: -479125745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_103
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1092
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2870dc38aa8a8d42b9eb67f9e099e39
+      internalID: 922760217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_104
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1090
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a58ab639a77204bb13e5fe6d099926
+      internalID: -846986049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_105
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 729
+        width: 344
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fe94f7feb7fb546a470978a285fdf5
+      internalID: -1423947856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_106
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 729
+        width: 344
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9a29a444e02341bcb7b610cbeef17
+      internalID: 578090246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_107
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 729
+        width: 344
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e06cca47fd95144ab8f754877a0e82b
+      internalID: -628852125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_108
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 731
+        width: 344
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d683326b2ee8df94fbc2f80e7000f4fe
+      internalID: 752052631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_109
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 733
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccf87c221226e44995650091e628867
+      internalID: -2027442672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_110
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 735
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d569f166a5111a4b97065ffbba8b564
+      internalID: 396970396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_111
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 735
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d031b2988696d498da2d012618b41c
+      internalID: -1443559968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_112
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 375
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a5c8f94fb84494cbbc28072f79b454
+      internalID: -1567645765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_113
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 373
+        width: 344
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfbd42b9f8318743bb256880d1ea7c1
+      internalID: -526372768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_114
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 372
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957ed6d6aedcffb4cb04e1cb462c73d4
+      internalID: 2061615223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_115
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 371
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1219d94b27775cd4ebbbc245359b02c6
+      internalID: 1907415514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_116
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 371
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6477def617abeb24b8df66ec05f970a9
+      internalID: -1832916280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_117
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 372
+        width: 345
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67777a0deb09d4945b3b8b79630795d0
+      internalID: 1395974855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_118
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 374
+        width: 345
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ad318742a0ee458ce2a220dceda04
+      internalID: -1424935418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_119
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 16
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a605cf47037989845b0dddd0a33ec8e0
+      internalID: -795936855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabrielon-1_120
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 2160
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b748bb55de08214da76916e3529cdbe
+      internalID: 1645158965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gabrielon-1_102: -479125745
+      gabrielon-1_80: -568608147
+      gabrielon-1_84: 1383357711
+      gabrielon-1_43: -1773250750
+      gabrielon-1_109: -2027442672
+      gabrielon-1_113: -526372768
+      gabrielon-1_22: 1802491736
+      gabrielon-1_48: 988491423
+      gabrielon-1_100: 1606603044
+      gabrielon-1_31: 1956279502
+      gabrielon-1_66: 2063333445
+      gabrielon-1_50: 1564156739
+      gabrielon-1_67: -1992831865
+      gabrielon-1_36: 1833456709
+      gabrielon-1_33: 541989512
+      gabrielon-1_112: -1567645765
+      gabrielon-1_69: -160315086
+      gabrielon-1_103: 922760217
+      gabrielon-1_57: 1319689670
+      gabrielon-1_110: 396970396
+      gabrielon-1_6: 344750504
+      gabrielon-1_44: 1503935957
+      gabrielon-1_92: 225394978
+      gabrielon-1_1: 734655064
+      gabrielon-1_98: -1286586744
+      gabrielon-1_79: -1885281240
+      gabrielon-1_30: 1550551720
+      gabrielon-1_111: -1443559968
+      gabrielon-1_105: -1423947856
+      gabrielon-1_114: 2061615223
+      gabrielon-1_32: -634319088
+      gabrielon-1_58: -1854778355
+      gabrielon-1_60: -45193764
+      gabrielon-1_17: 161175892
+      gabrielon-1_94: 498209971
+      gabrielon-1_115: 1907415514
+      gabrielon-1_59: -367530466
+      gabrielon-1_78: 1463107839
+      gabrielon-1_68: 448720076
+      gabrielon-1_21: 50519412
+      gabrielon-1_45: -1662861597
+      gabrielon-1_73: -1183380446
+      gabrielon-1_76: 596059954
+      gabrielon-1_118: -1424935418
+      gabrielon-1_19: 244793097
+      gabrielon-1_104: -846986049
+      gabrielon-1_56: 1943960710
+      gabrielon-1_3: 1121609287
+      gabrielon-1_87: 562949925
+      gabrielon-1_26: -190736993
+      gabrielon-1_7: 834421198
+      gabrielon-1_61: 1439621371
+      gabrielon-1_117: 1395974855
+      gabrielon-1_14: 145936087
+      gabrielon-1_20: 397518104
+      gabrielon-1_41: -1185944450
+      gabrielon-1_2: -1477297556
+      gabrielon-1_97: 1743652345
+      gabrielon-1_106: 578090246
+      gabrielon-1_86: -367713700
+      gabrielon-1_101: 468350612
+      gabrielon-1_49: -550961993
+      gabrielon-1_13: -985221578
+      gabrielon-1_54: -1780384493
+      gabrielon-1_47: -100161182
+      gabrielon-1_39: -553699272
+      gabrielon-1_65: -579487791
+      gabrielon-1_96: -160210897
+      gabrielon-1_23: 329963401
+      gabrielon-1_10: -758806870
+      gabrielon-1_12: -825963124
+      gabrielon-1_70: 954635717
+      gabrielon-1_11: 934767967
+      gabrielon-1_24: -509772751
+      gabrielon-1_55: 2006082200
+      gabrielon-1_5: 2025384857
+      gabrielon-1_88: 1883829688
+      gabrielon-1_27: -1581386390
+      gabrielon-1_119: -795936855
+      gabrielon-1_51: -1323413894
+      gabrielon-1_40: 536857816
+      gabrielon-1_91: -1696046356
+      gabrielon-1_4: -1524038175
+      gabrielon-1_35: -373420325
+      gabrielon-1_93: 873170567
+      gabrielon-1_95: 1758462281
+      gabrielon-1_38: 691290917
+      gabrielon-1_81: -1105033047
+      gabrielon-1_85: 2076900683
+      gabrielon-1_72: -1773695300
+      gabrielon-1_42: 1064647758
+      gabrielon-1_25: -2146999286
+      gabrielon-1_34: -1941069988
+      gabrielon-1_75: 857946615
+      gabrielon-1_82: 1705732414
+      gabrielon-1_90: 594893256
+      gabrielon-1_120: 1645158965
+      gabrielon-1_28: 630914540
+      gabrielon-1_116: -1832916280
+      gabrielon-1_99: -1272361550
+      gabrielon-1_53: 1596321280
+      gabrielon-1_63: -1849832156
+      gabrielon-1_107: -628852125
+      gabrielon-1_77: -881383821
+      gabrielon-1_9: -1298679239
+      gabrielon-1_15: -186640290
+      gabrielon-1_16: -1373547751
+      gabrielon-1_83: -246562576
+      gabrielon-1_46: -1088128656
+      gabrielon-1_64: 1851795596
+      gabrielon-1_0: -1094090909
+      gabrielon-1_62: -2056308350
+      gabrielon-1_71: 1628767995
+      gabrielon-1_29: -1166554951
+      gabrielon-1_89: -1976126621
+      gabrielon-1_8: -480032317
+      gabrielon-1_74: 1076150205
+      gabrielon-1_108: 752052631
+      gabrielon-1_52: -310101825
+      gabrielon-1_37: -1298361065
+      gabrielon-1_18: 686806352
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

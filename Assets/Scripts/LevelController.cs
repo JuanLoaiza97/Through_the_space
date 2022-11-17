@@ -10,7 +10,7 @@ public class LevelController : MonoBehaviour
 {
     public Spaceship spaceShip;
     public GameObject portal;
-    
+    public bool isEnabled = true;
     public int level;
 
     [Header("Pause panel")]
@@ -41,6 +41,11 @@ public class LevelController : MonoBehaviour
         scoreIndicator.UpdateIndicator(spaceShip.points);
         SoundController.instance.ResetVolumeBackgroundMusic();
 
+        if (!isEnabled)
+        {
+            spawnObject.SetActive(false);
+        }
+
         AudioClip music = null;
         if (level == 1)
         {
@@ -54,24 +59,26 @@ public class LevelController : MonoBehaviour
         {
             music = SoundController.instance.pixelon1902;
         }
-        else if (level == 4)
-        {
-            music = SoundController.instance.vert1317;
-        }
 
-        SoundController.instance.SetBackgroundMusic(music);
+        if (music != null)
+        {
+            SoundController.instance.SetBackgroundMusic(music);
+        }
     }
 
     private void Update()
     {
 
         //RNF2 Cuenta el tiempo y cuando pase el tiempo programado finaliza el nivel
-        time += Time.deltaTime;
-        levelProgressBar.UpdateBar(time, timeToFinishedLevel);
-        if (!isFinishedLevel && time > timeToFinishedLevel)
+        if (isEnabled)
         {
-            isFinishedLevel = true;
-            FinishLevel();
+            time += Time.deltaTime;
+            levelProgressBar.UpdateBar(time, timeToFinishedLevel);
+            if (!isFinishedLevel && time > timeToFinishedLevel)
+            {
+                isFinishedLevel = true;
+                FinishLevel();
+            }
         }
     }
 
@@ -96,7 +103,7 @@ public class LevelController : MonoBehaviour
     }
 
     public void GameOver(int points)
-    {   
+    {
         SoundController.instance.StopBackgroundMusic();
         Time.timeScale = 0f;
         gameOverPanel.SetActive(true);
@@ -141,7 +148,7 @@ public class LevelController : MonoBehaviour
     public void NextLevel()
     {
         SoundController.instance.score = spaceShip.points;
-        int nextLevel = (level + 1) % 4;
+        int nextLevel = (level + 1) % 5;
         SceneManager.LoadScene(nextLevel);
     }
 }

@@ -119,6 +119,7 @@ MonoBehaviour:
   speedRotation: 10
   destroyLimit: 12
   explosionEffect: {fileID: 229776486669701070, guid: ff45c3cccf1769346af8d198248e78fd, type: 3}
+  damage: 1
 --- !u!50 &-5544466843813409402
 Rigidbody2D:
   serializedVersion: 4

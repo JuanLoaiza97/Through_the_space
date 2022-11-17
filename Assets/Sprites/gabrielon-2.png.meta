@@ -1,0 +1,2797 @@
+fileFormatVersion: 2
+guid: 5c0adfe3176518240b05f4344a35de76
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gabriel-2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6140
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d726c9588be547a3cad7f868273c4
+      internalID: 1333042055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 6140
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63028ac01533d74ebd1a469742c6393
+      internalID: 1740964003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_2
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 6136
+        width: 344
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec799042f98f184eb65e04bd37df08b
+      internalID: 1875566435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_3
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 6134
+        width: 344
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3123b603df8572448e17acf07234ebf
+      internalID: 248280577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_4
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 6131
+        width: 344
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6f404039a87df45bb23617eb1663de
+      internalID: -1799112153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_5
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 6129
+        width: 344
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba1afd73a27e5146af24666d58cff83
+      internalID: -798304094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_6
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 6128
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f25cb42e23bcd49952659196334d7e
+      internalID: -2085818924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5768
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6537fbc01c52bec45b79fd8adf0cbd9b
+      internalID: -379808237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 5768
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a7f56ee05d8594999ce9f22a2a713a
+      internalID: -1112937107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_9
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 5769
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a6a2ec1f966a4438ed7129b777fec0
+      internalID: -1363614950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_10
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 5771
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f66f3625e4c34b40a00543b37f0322c
+      internalID: 293426001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_11
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 5772
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520f5aa25389b134980161d4d6501b37
+      internalID: 466429316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_12
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 5773
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994d6b42150c4b446912b14679a9d857
+      internalID: -587849219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_13
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 5776
+        width: 345
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a16a518f9b606c459e778c2d096a416
+      internalID: 1540697088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5418
+        width: 345
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addefae045beb274b8a948f5f2426de0
+      internalID: 1179431406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_15
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 5420
+        width: 344
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab98d26961f989479d220a4ff5beff4
+      internalID: 2072113349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_16
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 5421
+        width: 344
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41fe4a2781f4ca419d1141c48c208af
+      internalID: 1312339924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_17
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 5422
+        width: 344
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ee505dbadd0da459571502e1d35afd
+      internalID: -766765223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_18
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 5422
+        width: 344
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651ee82404dd1394e875a65af1023edd
+      internalID: 261700215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_19
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 5423
+        width: 344
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6379c91c0916c44eab7cc8fb7bfab8f
+      internalID: 892767320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_20
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 5423
+        width: 344
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e82320f1bb9bb43ba716e021020e9c
+      internalID: -460963057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5064
+        width: 344
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ed5cc136e4371458d19b8b641af23c
+      internalID: -932409025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 5065
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd3035338d9d084ab1c01f0b49b7dde
+      internalID: 1467554624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_23
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 5066
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b129f680f7c8e4dba9c5bd61b31b04
+      internalID: 2023722903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_24
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 5067
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e714bcd2aa90a24ba82d28c6a74355a
+      internalID: 513002515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_25
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 5068
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a7dd43681e2614abbe9590b1ed94ad
+      internalID: -135026211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_26
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 5069
+        width: 345
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528323266373c264987cd192d385b05d
+      internalID: 108033735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_27
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 5069
+        width: 344
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2af8cf5221ebc40ad9d3694669d3d2
+      internalID: -899747349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4709
+        width: 344
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ad8134d91868b4ebe65f92f0b4e388
+      internalID: -1220374023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_29
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 4708
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a33ad9add2c0446a99c8366a9cbeb4
+      internalID: 1858232694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_30
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 4708
+        width: 345
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48a3a598757aab43b8c9881f943f773
+      internalID: 866597854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_31
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 4707
+        width: 344
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974b8de21b699cb49958b6dfa17145d8
+      internalID: 1612515171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_32
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 4707
+        width: 344
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3ba0c4e5b64ae49b2a82418dcdd735
+      internalID: -2117294512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_33
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 4707
+        width: 344
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f7f63e081b34d4ea2b7c2c8aa7eb47
+      internalID: -1207507555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_34
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 4706
+        width: 344
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f541a5a71139c4a8c6b02827b2dd24
+      internalID: 2110250924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4345
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea551ca1e495df4180653027df84a92
+      internalID: -709588787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_36
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 4344
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b9e288ceafdfe4484817963df021e1
+      internalID: 2115520104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_37
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 4343
+        width: 344
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433e6192c6b8eb646a308db43a25744c
+      internalID: 373955477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_38
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 4342
+        width: 344
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cece284c7b956614e9b65e2eab877a4b
+      internalID: 929071015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_39
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 4341
+        width: 344
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d201550c1d92469ed975b55ab2c1b
+      internalID: 821020909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_40
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 4341
+        width: 344
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea38a7fda7b34ad4c8dbeeac08b2e617
+      internalID: -779726352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_41
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 4340
+        width: 345
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9cfbbe23b88824c99bf3613f90f1f9
+      internalID: 1847985660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3977
+        width: 345
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1153927d93df118468dc32e6f5537682
+      internalID: -394669259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_43
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3973
+        width: 345
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575b628006e8bc47b41ed09d1d86ca6
+      internalID: -974992988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_44
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 3972
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170d9ca6511d66645a74fc9a27f24c99
+      internalID: 900901947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_45
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 3971
+        width: 345
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616897ad6e792c04db589bd4b55609bb
+      internalID: 600095290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_46
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 3971
+        width: 344
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db7bc744dd347b4fa130ab8e98943f6
+      internalID: 1517251954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_47
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3970
+        width: 344
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e5495a1a93aeb4ab75d8f294f663af
+      internalID: -697804471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_48
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 3970
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0fd6090640138409b60803b67ec59f
+      internalID: 1850492315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_49
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3610
+        width: 344
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e17a2a39bc3afe429d36ec9d6d820f7
+      internalID: -1031058949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_50
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3610
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bb69a8e2c8f834d8d0cc1a38a667e6
+      internalID: 601291074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_51
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 3610
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e25a252cf417b4f9c44ee736295f1f
+      internalID: 1389050472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_52
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 3610
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d88ca6a0d2df5b468c330037e06eddc
+      internalID: -1457206659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_53
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 3610
+        width: 344
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa3266a0eac22489b3e4c17f921281
+      internalID: -1078687351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_54
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 3609
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f905dae079123f49bbe1bb3c019c12a
+      internalID: -1826433982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_55
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 3609
+        width: 344
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f4d48ff952f584ca7183d3cb3132ff
+      internalID: -1138352808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3249
+        width: 345
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca986d5d4f570c4fa44e82cea2756c6
+      internalID: -343930931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3251
+        width: 345
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ba7eb11fb5a714c957ee27c2aa0625
+      internalID: -403330592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_58
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 3256
+        width: 345
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc888e90d8da247b2f80a9b17af249
+      internalID: -5932971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_59
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3258
+        width: 344
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eba13b35e7d27f4ebb032f8e96991d4
+      internalID: 1170570858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_60
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 3259
+        width: 345
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3084ace8823ea0458533c82ad8a2c97
+      internalID: 1275950375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_61
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3260
+        width: 345
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8b6643d44d31e4b87cf64298a1bc87
+      internalID: -1389057485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_62
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 3261
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c25d9ef73b942642a90f41188f3752b
+      internalID: -156972670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_63
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2900
+        width: 344
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d062935f519e15440a3f8d75ae15a27b
+      internalID: 909503574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_64
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2900
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f96f51b65eab045b701a57b7ea9d8d
+      internalID: -1886112756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_65
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2900
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf10fe13bef3e447898bb65d03fbbed
+      internalID: -1681986807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_66
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 2900
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57dc823ad4961d4e811ba7050bdd896
+      internalID: 595584368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_67
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 2900
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4afa300a2aba3841b3bcb8eacb67a86
+      internalID: 71854703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_68
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2900
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17dbcab055bc10438bfd35505c77975
+      internalID: -217557692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_69
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2899
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148bfda2d214a5d4cad58b4b8ddf24bd
+      internalID: 874736772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_70
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2539
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f4f506d1da5ae498503601ed9cdfa3
+      internalID: -608236470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_71
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2538
+        width: 344
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b04b0b6baf734418ee4c9e2b6adcba
+      internalID: -1947855755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_72
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2537
+        width: 344
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1831c513b6ca49448ee1c2ecb4ceca8
+      internalID: 1566270002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_73
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2535
+        width: 345
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5cb52b4557e4742862a2dbf5f758e8
+      internalID: -2052505377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_74
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2531
+        width: 345
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc5e5c72e8fafe4ba67da5dfd4f7e0a
+      internalID: 534642741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_75
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2531
+        width: 344
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480ca64f3ba6a52498d217f355cc1975
+      internalID: 1097817215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_76
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 2534
+        width: 344
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd8589dc36192846a3637c4bb9a3a42
+      internalID: -92977668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2179
+        width: 345
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827d66372b8c67e47a6d24f24ed0ab66
+      internalID: -678271819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_78
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2181
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43de76db6cd1a340a7a9d7591583849
+      internalID: 1388696061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_79
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2182
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e505e6b7bf9b24ab5daf59d5d3400e
+      internalID: 1849958294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_80
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2181
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e83b76552c604bbad093afc5b161b
+      internalID: 1136708453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_81
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 2179
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51442343e126fbf4aa42801bf222eaac
+      internalID: -247351302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_82
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2177
+        width: 345
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac71d54f869a4e64fa19351e3417a3ba
+      internalID: -1801115414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_83
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2176
+        width: 345
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bca4352fd209d4f9b02e7c4ea1e3f3
+      internalID: -1831344459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_84
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1813
+        width: 345
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126ebb7cc7a62764e91ed61fea86a719
+      internalID: 1922950409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_85
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1813
+        width: 345
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f0c83066be7640baebf12305285d8
+      internalID: 950434285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_86
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1816
+        width: 345
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25550b1e030840140a5baf01deeb1cc3
+      internalID: -172220761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_87
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1819
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2319ddbb8c7af49bd84738eb8d13fb
+      internalID: -826967142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_88
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1820
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb74c8ccb696c846b343c0d8094e452
+      internalID: -1783207727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_89
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1820
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adba88539036cd428d037d88ddbadb2
+      internalID: -1536569446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_90
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1819
+        width: 345
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa219fc93e7b2e4983091664e536186
+      internalID: 1073419806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1457
+        width: 345
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9affe7f7ba6eb114f9cbd642380752ac
+      internalID: 1158703590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_92
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1456
+        width: 344
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d397dceda753daf45b7efb7094489453
+      internalID: 97828163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_93
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1454
+        width: 344
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6243382ca48cd3c4dbfb9c7413332628
+      internalID: 1196950372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_94
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1455
+        width: 344
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec80c802396f6754da0624bd9be76baf
+      internalID: -1454127195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_95
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1456
+        width: 344
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbb2dfa04a119f46bd503a379015a1c
+      internalID: -1037230993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_96
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1458
+        width: 345
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3f643dfa1802d429cb559802d232ac
+      internalID: -237917906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_97
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1458
+        width: 344
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb938551d80de04da9a4bd3180f3e7f
+      internalID: -948365866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_98
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1099
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d20ae4604bce44e90d83e5bbb31b28
+      internalID: 1753580909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_99
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1100
+        width: 345
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ad2bb58772a7458800d50aca2db0b
+      internalID: -1872755007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_100
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1100
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97a6d08715cb764e99e5d47d2fe6e2b
+      internalID: -817471341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_101
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1098
+        width: 344
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e898ee400176b641bcdecf59497134c
+      internalID: 256979499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_102
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1096
+        width: 344
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803b21e5e8f08514d8dcb70039f92bec
+      internalID: 1577656532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_103
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1093
+        width: 344
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534e845c98d94e649bb18f9765784d0e
+      internalID: 2079420603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_104
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1091
+        width: 345
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2004b4181a3974789ae133aa67521b
+      internalID: -1873089340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_105
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 730
+        width: 345
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c10ac866e247945bc9f942e6e7f946
+      internalID: 1348856129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_106
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 731
+        width: 344
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d61639ea9c2db48b615dc19c61179f
+      internalID: 1277937672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_107
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 733
+        width: 345
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d135716d28199746a9adc9a574b8405
+      internalID: 2134815614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_108
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 736
+        width: 345
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135c4cfd4d5879b43a2e972d6ca0c6d4
+      internalID: 1215232888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_109
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 739
+        width: 344
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e3a0bc062618b4e9054256b48ebfe4
+      internalID: -1104275702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_110
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 741
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5c1838d3246264a825798d90991324
+      internalID: 1848797793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_111
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 741
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3581cc5e012e53548be700b5ae1f53b0
+      internalID: 493795341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_112
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 381
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499d026f97488c64a8fa5c932b81aa71
+      internalID: 631069829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_113
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 381
+        width: 345
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb5d2d068ea39048998e53e70ff5a94
+      internalID: 1986579818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_114
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 380
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3ef822c92953942a7061236c650880
+      internalID: -1271083160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_115
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 380
+        width: 344
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4809b04c0c4df254693c5757feb17e6d
+      internalID: 145486629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_116
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 380
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ff5ff12a43ae44d8991fe7f00bac83
+      internalID: 1029580869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_117
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 380
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5185cb14f19ca4419a5360ad5e0486c
+      internalID: -960448325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_118
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 380
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab62a314be1e2a74b844a9e4525e8ca1
+      internalID: -1626085805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_119
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 20
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a2460a42dd3454cbe965b15dc76bf5
+      internalID: 1662927110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gabriel-2_120
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 2160
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e2d0f7d7b9550448418641908fc4ed
+      internalID: -1630444498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gabriel-2_10: 293426001
+      gabriel-2_9: -1363614950
+      gabriel-2_13: 1540697088
+      gabriel-2_20: -460963057
+      gabriel-2_46: 1517251954
+      gabriel-2_89: -1536569446
+      gabriel-2_109: -1104275702
+      gabriel-2_37: 373955477
+      gabriel-2_80: 1136708453
+      gabriel-2_106: 1277937672
+      gabriel-2_61: -1389057485
+      gabriel-2_11: 466429316
+      gabriel-2_43: -974992988
+      gabriel-2_99: -1872755007
+      gabriel-2_54: -1826433982
+      gabriel-2_59: 1170570858
+      gabriel-2_96: -237917906
+      gabriel-2_104: -1873089340
+      gabriel-2_71: -1947855755
+      gabriel-2_62: -156972670
+      gabriel-2_3: 248280577
+      gabriel-2_77: -678271819
+      gabriel-2_41: 1847985660
+      gabriel-2_15: 2072113349
+      gabriel-2_50: 601291074
+      gabriel-2_73: -2052505377
+      gabriel-2_105: 1348856129
+      gabriel-2_35: -709588787
+      gabriel-2_87: -826967142
+      gabriel-2_49: -1031058949
+      gabriel-2_82: -1801115414
+      gabriel-2_51: 1389050472
+      gabriel-2_76: -92977668
+      gabriel-2_25: -135026211
+      gabriel-2_57: -403330592
+      gabriel-2_93: 1196950372
+      gabriel-2_16: 1312339924
+      gabriel-2_67: 71854703
+      gabriel-2_115: 145486629
+      gabriel-2_7: -379808237
+      gabriel-2_55: -1138352808
+      gabriel-2_36: 2115520104
+      gabriel-2_85: 950434285
+      gabriel-2_100: -817471341
+      gabriel-2_42: -394669259
+      gabriel-2_14: 1179431406
+      gabriel-2_94: -1454127195
+      gabriel-2_0: 1333042055
+      gabriel-2_27: -899747349
+      gabriel-2_32: -2117294512
+      gabriel-2_81: -247351302
+      gabriel-2_23: 2023722903
+      gabriel-2_88: -1783207727
+      gabriel-2_1: 1740964003
+      gabriel-2_31: 1612515171
+      gabriel-2_92: 97828163
+      gabriel-2_102: 1577656532
+      gabriel-2_120: -1630444498
+      gabriel-2_29: 1858232694
+      gabriel-2_108: 1215232888
+      gabriel-2_21: -932409025
+      gabriel-2_56: -343930931
+      gabriel-2_98: 1753580909
+      gabriel-2_118: -1626085805
+      gabriel-2_52: -1457206659
+      gabriel-2_75: 1097817215
+      gabriel-2_47: -697804471
+      gabriel-2_86: -172220761
+      gabriel-2_4: -1799112153
+      gabriel-2_78: 1388696061
+      gabriel-2_28: -1220374023
+      gabriel-2_68: -217557692
+      gabriel-2_119: 1662927110
+      gabriel-2_30: 866597854
+      gabriel-2_110: 1848797793
+      gabriel-2_24: 513002515
+      gabriel-2_84: 1922950409
+      gabriel-2_33: -1207507555
+      gabriel-2_45: 600095290
+      gabriel-2_40: -779726352
+      gabriel-2_111: 493795341
+      gabriel-2_34: 2110250924
+      gabriel-2_65: -1681986807
+      gabriel-2_64: -1886112756
+      gabriel-2_8: -1112937107
+      gabriel-2_112: 631069829
+      gabriel-2_72: 1566270002
+      gabriel-2_5: -798304094
+      gabriel-2_60: 1275950375
+      gabriel-2_103: 2079420603
+      gabriel-2_63: 909503574
+      gabriel-2_74: 534642741
+      gabriel-2_6: -2085818924
+      gabriel-2_17: -766765223
+      gabriel-2_79: 1849958294
+      gabriel-2_26: 108033735
+      gabriel-2_91: 1158703590
+      gabriel-2_19: 892767320
+      gabriel-2_18: 261700215
+      gabriel-2_58: -5932971
+      gabriel-2_97: -948365866
+      gabriel-2_66: 595584368
+      gabriel-2_101: 256979499
+      gabriel-2_38: 929071015
+      gabriel-2_116: 1029580869
+      gabriel-2_107: 2134815614
+      gabriel-2_44: 900901947
+      gabriel-2_114: -1271083160
+      gabriel-2_12: -587849219
+      gabriel-2_39: 821020909
+      gabriel-2_70: -608236470
+      gabriel-2_117: -960448325
+      gabriel-2_2: 1875566435
+      gabriel-2_95: -1037230993
+      gabriel-2_53: -1078687351
+      gabriel-2_83: -1831344459
+      gabriel-2_22: 1467554624
+      gabriel-2_113: 1986579818
+      gabriel-2_48: 1850492315
+      gabriel-2_90: 1073419806
+      gabriel-2_69: 874736772
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

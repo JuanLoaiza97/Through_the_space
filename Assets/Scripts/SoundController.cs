@@ -22,7 +22,11 @@ public class SoundController : MonoBehaviour
     public AudioClip niviru5003;
     public AudioClip tezno1789;
     public AudioClip pixelon1902;
-    public AudioClip vert1317;
+    public AudioClip gabrielon;
+    public AudioClip gabrielonCombat;
+    public AudioClip evilLaughter;
+    public AudioClip appearingGabrielon;
+    public AudioClip word;
     public AudioClip win;
 
     //TODO Temporal
@@ -89,6 +93,26 @@ public class SoundController : MonoBehaviour
         PlaySound(collision);
     }
 
+    public void PlayEvilLaughterSound()
+    {
+        PlaySound(evilLaughter);
+    }
+
+    public void PlayAppearingGabrielonSound()
+    {
+        PlaySound(appearingGabrielon);
+    }
+
+    public void PlayWordSound()
+    {
+        PlaySound(word);
+    }
+
+    public void PlayWinSound()
+    {
+        PlaySound(win);
+    }
+
     public void SetBackgroundMusic(AudioClip audioClip)
     {
         backgroundSound.clip = audioClip;
@@ -119,4 +143,6 @@ public class SoundController : MonoBehaviour
         }
         turnDownVolumeMusic = false;
     }
+
+    
 }

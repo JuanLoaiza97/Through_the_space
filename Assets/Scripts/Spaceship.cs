@@ -6,6 +6,7 @@ public class Spaceship : MonoBehaviour
 {
     public LevelController levelController;
 
+    public GameObject attackButton;
     [SerializeField] private Transform gun;
     [SerializeField] private GameObject bullet;
 

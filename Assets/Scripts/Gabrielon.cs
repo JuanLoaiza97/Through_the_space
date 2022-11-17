@@ -4,31 +4,41 @@ using UnityEngine;
 
 public class Gabrielon : MonoBehaviour
 {
-    [SerializeField] private GameObject spaceship;
+    public LevelController levelController;
     [SerializeField] private GameObject explosionEffect;
+    [SerializeField] private ProgressBar levelProgressBar;
+    [SerializeField] private GameObject spawnObject;
     [SerializeField] private Transform[] pointsMovement;
+    [SerializeField] private float heal;
     [SerializeField] private float speedMovement;
     [SerializeField] private float minDistance;
     [SerializeField] private float timeRateToAttack;
     [SerializeField] private float damageAttack;
+    private GameObject spaceship;
     private SpriteRenderer spriteRenderer;
     private Vector3 randomPoint;
+    private float healTotal;
     private float speed;
     private float timeToAttack;
     private bool isAttack;
     private float time;
-
-    [Header("Laser")]
-    [SerializeField] private float defDistanceRay = 100;
-    public Transform laserFirePoint;
-    public LineRenderer lineRenderer;
+    private int state;
+    private Animator animator;
+    
 
     private void Start()
     {
+        levelProgressBar.UpdateBar(0, 1);
+        healTotal = heal;
         randomPoint = pointsMovement[Random.Range(0, pointsMovement.Length)].position;
         speed = speedMovement;
         timeToAttack = timeRateToAttack;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        state = 1;
+
+        animator = GetComponent<Animator>();
+        spaceship = GameObject.FindGameObjectWithTag("Player");
+        spaceship.GetComponent<Spaceship>().attackButton.SetActive(false);
     }
 
 
@@ -36,16 +46,88 @@ public class Gabrielon : MonoBehaviour
     {
         time += Time.deltaTime;
 
-        Move();
-        
-        if (!isAttack && timeToAttack <= time)
+        InitScene();
+
+        if (state == 5)
         {
-            timeToAttack = time + timeRateToAttack;
-            Attack();
+            Move();
+
+            if (!isAttack && timeToAttack <= time)
+            {
+                isAttack = true;
+                animator.SetTrigger("Attack");
+            }
         }
     }
 
-    private void Move()
+    public void TakeDamage(float damage)
+    {
+        heal -= damage;
+        levelProgressBar.UpdateBar(healTotal - heal, healTotal);
+        if (heal < 0)
+        {
+            Defeat();
+        }
+    }
+
+    private void Defeat()
+    {
+        Instantiate(explosionEffect, transform.position, Quaternion.identity);
+        levelController.FinishLevel();
+        SoundController.instance.SetBackgroundMusic(SoundController.instance.win);
+        Destroy(gameObject);
+    }
+
+
+    //Animacion de entrada de gabrielon
+    private void InitScene()
+    {
+        if (time < 3)
+        {
+            return;
+        }
+
+        if (state == 1)
+        {
+            //Musica de fondo
+            SoundController.instance.SetBackgroundMusic(SoundController.instance.gabrielon);
+            state = 2;
+            return;
+        }
+
+        if (time > 6 && state == 2)
+        {
+            //Aparece gabrielon
+            animator.SetTrigger("Appearing");
+            SoundController.instance.PlayAppearingGabrielonSound();
+            state = 3;
+            return;
+        }
+
+        if (time > 9 && state == 3)
+        {
+            //Se rie gabrielon
+            SoundController.instance.PlayEvilLaughterSound();
+            state = 4;
+            return;
+        }
+
+        if (time > 13 && state == 4)
+        {
+            //Inicia el combate
+            timeToAttack = time + timeRateToAttack;
+            animator.SetTrigger("Move");
+            SoundController.instance.SetBackgroundMusic(SoundController.instance.gabrielonCombat);
+            state = 5;
+            spawnObject.SetActive(true);
+            spaceship.GetComponent<Spaceship>().attackButton.SetActive(true);
+            return;
+        }
+
+    }
+
+    //Movimiento normal de gabrielon
+    public void Move()
     {
         transform.position = Vector2.MoveTowards(transform.position, randomPoint, speed * Time.deltaTime);
 
@@ -56,29 +138,39 @@ public class Gabrielon : MonoBehaviour
             if (isAttack)
             {
                 isAttack = false;
-                speed = speedMovement;
+                timeToAttack = time + timeRateToAttack;
             }
         }
     }
 
-    private void Turn()
+    //Calcula el punto hacia donde debe atacar
+    public Vector3 GetPointAttack()
     {
-        if (transform.position.x < randomPoint.x)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else
-        {
-            spriteRenderer.flipX = false;
-        }
+        return new Vector3(-6, spaceship.transform.position.y, spaceship.transform.position.z);
     }
 
+    public float GetSpeedMovement()
+    {
+        return speedMovement;
+    }
+
+
+    //Moverse a la esecena
+    public void Appearing()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, pointsMovement[0].position, speed * Time.deltaTime);
+    }
+
+    //Atacar
     private void Attack()
     {
+        SoundController.instance.PlayEvilLaughterSound();
         isAttack = true;
-        randomPoint = spaceship.transform.position;
+        randomPoint = GetPointAttack();
         speed = speedMovement * 4;
     }
+
+    //Inflijir daño
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.CompareTag("Player"))
@@ -86,24 +178,5 @@ public class Gabrielon : MonoBehaviour
             Instantiate(explosionEffect, other.gameObject.transform.position, Quaternion.identity);
             other.gameObject.GetComponent<Spaceship>().ReceiveDamage(damageAttack);
         }
-    }
-
-        private void ShootLaser()
-    {
-        if (Physics2D.Raycast(transform.position, transform.right))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right);
-            Draw2DRay(laserFirePoint.position, hit.point);
-        }
-        else
-        {
-            Draw2DRay(laserFirePoint.position, laserFirePoint.transform.right * defDistanceRay);
-        }
-    }
-
-    private void Draw2DRay(Vector2 startPos, Vector2 endPos)
-    {
-        lineRenderer.SetPosition(0, startPos);
-        lineRenderer.SetPosition(1, endPos);
     }
 }

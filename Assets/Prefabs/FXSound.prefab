@@ -281,7 +281,12 @@ MonoBehaviour:
   firstAidKit: {fileID: 8300000, guid: 6e38080006a33184ab37553c8007a627, type: 3}
   menuMusic: {fileID: 8300000, guid: 8c12ce002d3f71040a9a7fba11c7d8bd, type: 3}
   niviru5003: {fileID: 8300000, guid: 3b49b2476dac11842884bb33bca895e4, type: 3}
-  tezno1789: {fileID: 8300000, guid: e7fc6de1679e8cb48b8dfc30da844ab0, type: 3}
+  tezno1789: {fileID: 8300000, guid: 419276892bcc3f545a738f684a384d95, type: 3}
   pixelon1902: {fileID: 8300000, guid: 934cc14d5de10084bb333c11fae42919, type: 3}
-  vert1317: {fileID: 8300000, guid: 7a0ca97cd58e33741a9fe8914a466a3e, type: 3}
+  gabrielon: {fileID: 8300000, guid: 7a0ca97cd58e33741a9fe8914a466a3e, type: 3}
+  gabrielonCombat: {fileID: 8300000, guid: 842a70d5d5ddacf4185e62b54e143137, type: 3}
+  evilLaughter: {fileID: 8300000, guid: cf4164b899fdb8141964daef0dcd9247, type: 3}
+  appearingGabrielon: {fileID: 8300000, guid: 1903f3f90afa47d4c844dc5203c422eb, type: 3}
+  word: {fileID: 8300000, guid: e883e22754dcc4143a9561b7037d328e, type: 3}
   win: {fileID: 8300000, guid: eb6258ba89d0e5a41a534d7a23f18cde, type: 3}
+  score: 0

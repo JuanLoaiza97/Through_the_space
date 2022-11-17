@@ -18,10 +18,13 @@ public class MainPanel : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject levelSelectPanel;
 
+    public GameObject rankingPanel;
+
     private void Awake()
     {
         optionsPanel.SetActive(false);
         levelSelectPanel.SetActive(false);
+        rankingPanel.SetActive(false);
         volumeFX.onValueChanged.AddListener(ChangeVolumeFX);
         volumeMaster.onValueChanged.AddListener(ChangeVolumeMaster);
         SoundController.instance.SetBackgroundMusic(SoundController.instance.menuMusic);
