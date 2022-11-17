@@ -60,6 +60,7 @@ public class MainPanel : MonoBehaviour
         mainPanel.SetActive(false);
         optionsPanel.SetActive(false);
         levelSelectPanel.SetActive(false);
+        rankingPanel.SetActive(false);
 
         panel.SetActive(true);
         SoundController.instance.PlayButtonSound();

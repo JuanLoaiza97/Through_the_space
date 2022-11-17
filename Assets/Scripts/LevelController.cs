@@ -32,6 +32,8 @@ public class LevelController : MonoBehaviour
     private float time = 0;
     private bool isFinishedLevel = false;
 
+    private AudioClip music;
+
     private void Start()
     {
         pausePanel.SetActive(false);
@@ -46,7 +48,6 @@ public class LevelController : MonoBehaviour
             spawnObject.SetActive(false);
         }
 
-        AudioClip music = null;
         if (level == 1)
         {
             music = SoundController.instance.niviru5003;
@@ -59,8 +60,12 @@ public class LevelController : MonoBehaviour
         {
             music = SoundController.instance.pixelon1902;
         }
+        else if (level == 4)
+        {
+            music = SoundController.instance.gabrielon;
+        }
 
-        if (music != null)
+        if (level == 4)
         {
             SoundController.instance.SetBackgroundMusic(music);
         }
@@ -99,7 +104,7 @@ public class LevelController : MonoBehaviour
         pausePanel.SetActive(false);
         pauseButton.SetActive(true);
         Time.timeScale = 1f;
-        SoundController.instance.SetBackgroundMusic(SoundController.instance.niviru5003);
+        SoundController.instance.SetBackgroundMusic(music);
     }
 
     public void GameOver(int points)

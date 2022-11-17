@@ -128,7 +128,6 @@ public class Spaceship : MonoBehaviour
 
     public void Shoot()
     {
-        Debug.Log("Pium");
-        Instantiate(bullet, gun.position, gun.rotation);
+        Instantiate(bullet, gun.position, Quaternion.identity);
     }
 }
